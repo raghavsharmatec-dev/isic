@@ -6,14 +6,10 @@
 import express from 'express';
 import { GoogleGenAI, Type } from '@google/genai';
 import path from 'path';
-import { fileURLToPath } from 'url';
 import fs from 'fs';
 import dotenv from 'dotenv';
 
 dotenv.config();
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
 
 const app = express();
 app.use(express.json());
@@ -116,34 +112,28 @@ Also include a "documentationSummary" detailing the Senior Data Architect's conc
   }
 });
 
-// Setup Vite middleware in Dev environment, otherwise static serving in Production
-if (process.env.NODE_ENV !== 'production') {
-  const { createServer: createViteServer } = await import('vite');
-  const vite = await createViteServer({
-    server: { middlewareMode: true },
-    appType: 'custom',
-  });
+// Setup Vite middleware inside an async start function to avoid top-level await issues
+async function startServer() {
+  if (process.env.NODE_ENV !== 'production') {
+    const { createServer: createViteServer } = await import('vite');
+    const vite = await createViteServer({
+      server: { middlewareMode: true },
+      appType: 'spa',
+    });
+    app.use(vite.middlewares);
+  } else {
+    const distPath = path.resolve(process.cwd(), 'dist');
+    app.use(express.static(distPath));
+    app.get('*', (req, res) => {
+      res.sendFile(path.resolve(distPath, 'index.html'));
+    });
+  }
 
-  app.use(vite.middlewares);
-
-  app.use('*', async (req, res, next) => {
-    const url = req.originalUrl;
-    try {
-      let template = fs.readFileSync(path.resolve(__dirname, 'index.html'), 'utf-8');
-      template = await vite.transformIndexHtml(url, template);
-      res.status(200).set({ 'Content-Type': 'text/html' }).end(template);
-    } catch (e) {
-      vite.ssrFixStacktrace(e as Error);
-      next(e);
-    }
-  });
-} else {
-  app.use(express.static(path.resolve(__dirname, 'dist')));
-  app.get('*', (req, res) => {
-    res.sendFile(path.resolve(__dirname, 'dist', 'index.html'));
+  app.listen(PORT, '0.0.0.0', () => {
+    console.log(`Unified Server initialized successfully on port ${PORT}`);
   });
 }
 
-app.listen(PORT, '0.0.0.0', () => {
-  console.log(`Unified Server initialized successfully on port ${PORT}`);
+startServer().catch((error) => {
+  console.error('Fatal error starting the unified server:', error);
 });
