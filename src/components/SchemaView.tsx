@@ -24,7 +24,10 @@ import {
   ChevronRight,
   BookOpen,
   CheckCircle2,
-  ListRestart
+  ListRestart,
+  Key,
+  Eye,
+  EyeOff
 } from 'lucide-react';
 
 export interface FieldItem {
@@ -91,6 +94,29 @@ export default function SchemaView({ selectedEntity }: SchemaViewProps) {
     constraints: 'Required'
   });
 
+  // Custom API account integration credentials state
+  const [showSettings, setShowSettings] = useState(false);
+  const [customKey, setCustomKey] = useState<string>(() => {
+    return localStorage.getItem('custom_gemini_api_key') || '';
+  });
+  const [inputKey, setInputKey] = useState<string>(customKey);
+  const [showPassKey, setShowPassKey] = useState<boolean>(false);
+
+  // Sync state if saved customKey is modified
+  const handleSaveCustomKey = () => {
+    const trimmed = inputKey.trim();
+    localStorage.setItem('custom_gemini_api_key', trimmed);
+    setCustomKey(trimmed);
+    setShowSettings(false);
+  };
+
+  const handleClearCustomKey = () => {
+    localStorage.removeItem('custom_gemini_api_key');
+    setCustomKey('');
+    setInputKey('');
+    setShowSettings(false);
+  };
+
   // Auto load already cached spec or reset when selectedEntity changes
   useEffect(() => {
     if (selectedEntity) {
@@ -135,7 +161,10 @@ export default function SchemaView({ selectedEntity }: SchemaViewProps) {
     try {
       const response = await fetch('/api/generate-spec', {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
+        headers: { 
+          'Content-Type': 'application/json',
+          'x-gemini-api-key': customKey
+        },
         body: JSON.stringify({
           entityName: selectedEntity.entity,
           classLabel: selectedEntity.classLabel,
@@ -369,11 +398,28 @@ ${cols.join('\n')}
           <div className="text-[#5C5C66] font-sans">No industrial concept selected</div>
         )}
 
-        {selectedEntity && (
-          <span className="text-[10px] bg-[#1C1C24] text-[#E0E0E6] border border-[#24242B] font-mono px-2 py-0.5 rounded shrink-0">
-            Unit: {selectedEntity.unitName}
-          </span>
-        )}
+        <div className="flex items-center gap-3 shrink-0" id="toolbar-addons">
+          {selectedEntity && (
+            <span className="text-[10px] bg-[#1C1C24] text-[#E0E0E6] border border-[#24242B] font-mono px-2 py-0.5 rounded shrink-0">
+              Unit: {selectedEntity.unitName}
+            </span>
+          )}
+
+          <button
+            onClick={() => setShowSettings(true)}
+            className={`flex items-center gap-1.5 px-2.5 py-1 text-[10px] uppercase font-bold rounded border transition-all cursor-pointer select-none ${
+              customKey
+                ? 'bg-[#1C1C24] text-[#6366F1] border-[#6366F1]/30 hover:bg-[#6366F1]/10'
+                : 'bg-[#121216] text-[#8E9299] border-[#24242B] hover:text-[#E0E0E6]'
+            }`}
+            title="Configure connection to your custom Gemini API key"
+            id="btn-gemini-connection-status"
+          >
+            <span className={`w-1.5 h-1.5 rounded-full ${customKey ? 'bg-emerald-400 animate-pulse' : 'bg-[#5C5C66]'}`} />
+            <span>API: {customKey ? 'Custom Key' : 'Default'}</span>
+            <Key className="w-3 h-3 ml-0.5 opacity-80" />
+          </button>
+        </div>
       </div>
 
       {/* Main Workspace Frame */}
@@ -887,6 +933,108 @@ ${cols.join('\n')}
             <span>01.11</span>
             <ChevronRight className="w-2.5 h-2.5" />
             <span className="text-[#6366F1]">Farm</span>
+          </div>
+        </div>
+      )}
+
+      {/* Connection configuration settings Dialog */}
+      {showSettings && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/60 backdrop-blur-xs font-sans" id="settings-modal-bg">
+          <div className="bg-[#121216] border border-[#24242B] w-full max-w-md p-6 rounded shadow-2xl relative space-y-4 text-xs text-[#8E9299]" id="settings-modal-content">
+            <button 
+              onClick={() => { setShowSettings(false); setInputKey(customKey); }}
+              className="absolute top-4 right-4 text-[#8E9299] hover:text-[#E0E0E6] cursor-pointer"
+              id="close-settings-btn"
+            >
+              <X className="w-4 h-4" />
+            </button>
+
+            <div className="flex items-center gap-2.5" id="settings-title-row">
+              <span className="p-2 bg-[#1C1C24] text-[#6366F1] rounded">
+                <Key className="w-4.5 h-4.5" />
+              </span>
+              <div>
+                <h3 className="text-sm font-bold text-[#E0E0E6]">Gemini API Account Integration</h3>
+                <p className="text-[10px] text-[#8E9299] mt-0.5">Configure your custom service credentials</p>
+              </div>
+            </div>
+
+            <hr className="border-[#24242B]" />
+
+            <div className="space-y-3 leading-normal text-[#8E9299]">
+              <p>
+                By default, this application connects to the primary workspace's shared API context. Regular users accessing shared preview links or viewing from different machines can supply their personal Gemini keys.
+              </p>
+              <p className="p-2.5 bg-[#0A0A0C] border border-[#24242B] text-[11px] text-[#A2A6B0] rounded-sm italic leading-relaxed">
+                <strong>🔒 Security Notice:</strong> Key credentials are used strictly on request headers to generate schemas, and are saved directly in your personal secure client-side browser storage (never persisted on our database).
+              </p>
+            </div>
+
+            <div className="space-y-1.5 pt-1">
+              <label className="block text-[10px] text-[#E0E0E6] uppercase tracking-wider font-semibold">Gemini API Key</label>
+              <div className="relative">
+                <input 
+                  type={showPassKey ? 'text' : 'password'}
+                  value={inputKey}
+                  onChange={(e) => setInputKey(e.target.value)}
+                  placeholder="AIzaSy..."
+                  className="w-full bg-[#0A0A0C] border border-[#24242B] py-2 px-3 pr-10 rounded text-[#E0E0E6] font-mono text-xs focus:outline-none focus:border-[#6366F1] transition-colors placeholder-[#5C5C66]"
+                  id="gemini-api-key-input"
+                />
+                <button
+                  type="button"
+                  onClick={() => setShowPassKey(!showPassKey)}
+                  className="absolute right-3 top-1/2 -translate-y-1/2 text-[#5C5C66] hover:text-[#8E9299] cursor-pointer"
+                  title={showPassKey ? "Hide API key" : "Show API key"}
+                  id="toggle-visibility-key"
+                >
+                  {showPassKey ? <EyeOff className="w-3.5 h-3.5" /> : <Eye className="w-3.5 h-3.5" />}
+                </button>
+              </div>
+              <p className="text-[10px] text-[#5C5C66]">
+                Retrieve your key from the free{' '}
+                <a 
+                  href="https://aistudio.google.com/" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="text-[#6366F1] hover:underline"
+                >
+                  Google AI Studio Console
+                </a>.
+              </p>
+            </div>
+
+            <div className="flex items-center justify-between gap-3 pt-3 border-t border-[#24242B]">
+              {customKey ? (
+                <button
+                  onClick={handleClearCustomKey}
+                  className="px-3 py-1.5 bg-[#1C1C24] hover:bg-rose-950/20 text-rose-400 hover:text-rose-300 rounded transition cursor-pointer"
+                  id="disconnect-custom-key-btn"
+                >
+                  Disconnect Key
+                </button>
+              ) : (
+                <span className="text-[10px] text-[#5C5C66] italic">Using standard workspace key fallback</span>
+              )}
+
+              <div className="flex items-center gap-2">
+                <button
+                  onClick={() => { setShowSettings(false); setInputKey(customKey); }}
+                  className="px-3.5 py-1.5 hover:bg-[#1C1C24] text-[#8E9299] hover:text-[#E0E0E6] rounded transition cursor-pointer"
+                  id="cancel-settings-btn"
+                >
+                  Cancel
+                </button>
+                <button
+                  onClick={handleSaveCustomKey}
+                  disabled={!inputKey.trim()}
+                  className="px-4 py-1.5 bg-[#6366F1] hover:bg-[#6366F1]/90 text-white font-semibold rounded disabled:opacity-45 transition cursor-pointer"
+                  id="save-custom-key-btn"
+                >
+                  Connect Key
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       )}

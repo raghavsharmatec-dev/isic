@@ -21,14 +21,25 @@ app.use(express.json());
 const PORT = 3000;
 
 // Initialize GoogleGenAI lazily and safely
-let aiClient: GoogleGenAI | null = null;
-function getAIClient(): GoogleGenAI {
-  if (!aiClient) {
+let defaultAIClient: GoogleGenAI | null = null;
+function getAIClient(customApiKey?: string): GoogleGenAI {
+  if (customApiKey && customApiKey.trim().length > 0) {
+    return new GoogleGenAI({
+      apiKey: customApiKey.trim(),
+      httpOptions: {
+        headers: {
+          'User-Agent': 'aistudio-build',
+        },
+      },
+    });
+  }
+
+  if (!defaultAIClient) {
     const apiKey = process.env.GEMINI_API_KEY;
     if (!apiKey) {
-      throw new Error('GEMINI_API_KEY environment variable is required. Please set it in Settings > Secrets.');
+      throw new Error('No Gemini API access key found. Since this application is accessed outside of the workspace editor context, you need to connect your own Gemini key. Please input your personal Gemini API Key in the settings panel at the top/right of this page.');
     }
-    aiClient = new GoogleGenAI({
+    defaultAIClient = new GoogleGenAI({
       apiKey,
       httpOptions: {
         headers: {
@@ -37,7 +48,7 @@ function getAIClient(): GoogleGenAI {
       },
     });
   }
-  return aiClient;
+  return defaultAIClient;
 }
 
 // API endpoint to generate enterprise-grade schemas
@@ -48,7 +59,8 @@ app.post('/api/generate-spec', async (req, res) => {
       return res.status(400).json({ error: 'entityName is a required field' });
     }
 
-    const client = getAIClient();
+    const customKey = req.headers['x-gemini-api-key'] as string | undefined;
+    const client = getAIClient(customKey);
 
     const promptText = `You are a Senior Data Architect specializing in the "${divisionLabel}" industry.
 Provide a comprehensive technical data schema for the entity: "${entityName}".
