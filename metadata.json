@@ -1,0 +1,6 @@
+{
+  "name": "ISIC Industry Schema Architect",
+  "description": "A professional tool to navigate the ISIC hierarchy and dynamically generate technical data schemas and structural specifications using Gemini.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

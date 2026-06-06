@@ -1,0 +1,635 @@
+section_code,section_label,division_code,division_label,group_code,group_label,class_code,class_label,unit_name,entity
+A,"Agriculture, Forestry & Fishing",01,Crop & Animal Production,01.1,Growing of Non-Perennial Crops,01.11,"Cereals, Leguminous Crops & Oil Seeds",Farm Operations,Farm
+A,"Agriculture, Forestry & Fishing",01,Crop & Animal Production,01.1,Growing of Non-Perennial Crops,01.11,"Cereals, Leguminous Crops & Oil Seeds",Farm Operations,Field
+A,"Agriculture, Forestry & Fishing",01,Crop & Animal Production,01.1,Growing of Non-Perennial Crops,01.11,"Cereals, Leguminous Crops & Oil Seeds",Farm Operations,Crop
+A,"Agriculture, Forestry & Fishing",01,Crop & Animal Production,01.1,Growing of Non-Perennial Crops,01.11,"Cereals, Leguminous Crops & Oil Seeds",Farm Operations,PlantingSchedule
+A,"Agriculture, Forestry & Fishing",01,Crop & Animal Production,01.1,Growing of Non-Perennial Crops,01.11,"Cereals, Leguminous Crops & Oil Seeds",Farm Operations,HarvestRecord
+A,"Agriculture, Forestry & Fishing",01,Crop & Animal Production,01.1,Growing of Non-Perennial Crops,01.11,"Cereals, Leguminous Crops & Oil Seeds",Farm Operations,SoilSample
+A,"Agriculture, Forestry & Fishing",01,Crop & Animal Production,01.1,Growing of Non-Perennial Crops,01.11,"Cereals, Leguminous Crops & Oil Seeds",Farm Operations,IrrigationLog
+A,"Agriculture, Forestry & Fishing",01,Crop & Animal Production,01.1,Growing of Non-Perennial Crops,01.11,"Cereals, Leguminous Crops & Oil Seeds",Supply & Storage,Silo
+A,"Agriculture, Forestry & Fishing",01,Crop & Animal Production,01.1,Growing of Non-Perennial Crops,01.11,"Cereals, Leguminous Crops & Oil Seeds",Supply & Storage,InventoryBatch
+A,"Agriculture, Forestry & Fishing",01,Crop & Animal Production,01.1,Growing of Non-Perennial Crops,01.11,"Cereals, Leguminous Crops & Oil Seeds",Supply & Storage,Supplier
+A,"Agriculture, Forestry & Fishing",01,Crop & Animal Production,01.1,Growing of Non-Perennial Crops,01.11,"Cereals, Leguminous Crops & Oil Seeds",Supply & Storage,PurchaseOrder
+A,"Agriculture, Forestry & Fishing",01,Crop & Animal Production,01.1,Growing of Non-Perennial Crops,01.11,"Cereals, Leguminous Crops & Oil Seeds",Supply & Storage,Equipment
+A,"Agriculture, Forestry & Fishing",01,Crop & Animal Production,01.1,Growing of Non-Perennial Crops,01.13,"Vegetables, Melons, Roots & Tubers",Cultivation Management,Plot
+A,"Agriculture, Forestry & Fishing",01,Crop & Animal Production,01.1,Growing of Non-Perennial Crops,01.13,"Vegetables, Melons, Roots & Tubers",Cultivation Management,CropVariety
+A,"Agriculture, Forestry & Fishing",01,Crop & Animal Production,01.1,Growing of Non-Perennial Crops,01.13,"Vegetables, Melons, Roots & Tubers",Cultivation Management,GrowthLog
+A,"Agriculture, Forestry & Fishing",01,Crop & Animal Production,01.1,Growing of Non-Perennial Crops,01.13,"Vegetables, Melons, Roots & Tubers",Cultivation Management,PestIncident
+A,"Agriculture, Forestry & Fishing",01,Crop & Animal Production,01.1,Growing of Non-Perennial Crops,01.13,"Vegetables, Melons, Roots & Tubers",Cultivation Management,FertilizerApplication
+A,"Agriculture, Forestry & Fishing",01,Crop & Animal Production,01.1,Growing of Non-Perennial Crops,01.13,"Vegetables, Melons, Roots & Tubers",Quality & Sales,QualityInspection
+A,"Agriculture, Forestry & Fishing",01,Crop & Animal Production,01.1,Growing of Non-Perennial Crops,01.13,"Vegetables, Melons, Roots & Tubers",Quality & Sales,Buyer
+A,"Agriculture, Forestry & Fishing",01,Crop & Animal Production,01.1,Growing of Non-Perennial Crops,01.13,"Vegetables, Melons, Roots & Tubers",Quality & Sales,SalesContract
+A,"Agriculture, Forestry & Fishing",01,Crop & Animal Production,01.1,Growing of Non-Perennial Crops,01.13,"Vegetables, Melons, Roots & Tubers",Quality & Sales,DeliveryOrder
+A,"Agriculture, Forestry & Fishing",01,Crop & Animal Production,01.4,Animal Production,01.41,Dairy Cattle Farming,Herd Management,Animal
+A,"Agriculture, Forestry & Fishing",01,Crop & Animal Production,01.4,Animal Production,01.41,Dairy Cattle Farming,Herd Management,HealthRecord
+A,"Agriculture, Forestry & Fishing",01,Crop & Animal Production,01.4,Animal Production,01.41,Dairy Cattle Farming,Herd Management,VaccinationLog
+A,"Agriculture, Forestry & Fishing",01,Crop & Animal Production,01.4,Animal Production,01.41,Dairy Cattle Farming,Herd Management,FeedingSchedule
+A,"Agriculture, Forestry & Fishing",01,Crop & Animal Production,01.4,Animal Production,01.41,Dairy Cattle Farming,Herd Management,MilkYieldRecord
+A,"Agriculture, Forestry & Fishing",01,Crop & Animal Production,01.4,Animal Production,01.41,Dairy Cattle Farming,Dairy Processing,MilkBatch
+A,"Agriculture, Forestry & Fishing",01,Crop & Animal Production,01.4,Animal Production,01.41,Dairy Cattle Farming,Dairy Processing,QualityTest
+A,"Agriculture, Forestry & Fishing",01,Crop & Animal Production,01.4,Animal Production,01.41,Dairy Cattle Farming,Dairy Processing,StorageTank
+A,"Agriculture, Forestry & Fishing",01,Crop & Animal Production,01.4,Animal Production,01.41,Dairy Cattle Farming,Dairy Processing,Shipment
+A,"Agriculture, Forestry & Fishing",01,Crop & Animal Production,01.4,Animal Production,01.41,Dairy Cattle Farming,Dairy Processing,Customer
+A,"Agriculture, Forestry & Fishing",02,Forestry & Logging,02.1,Silviculture & Forestry,02.10,Silviculture & Other Forestry Activities,Forest Management,ForestZone
+A,"Agriculture, Forestry & Fishing",02,Forestry & Logging,02.1,Silviculture & Forestry,02.10,Silviculture & Other Forestry Activities,Forest Management,TreeSpecies
+A,"Agriculture, Forestry & Fishing",02,Forestry & Logging,02.1,Silviculture & Forestry,02.10,Silviculture & Other Forestry Activities,Forest Management,PlantingRecord
+A,"Agriculture, Forestry & Fishing",02,Forestry & Logging,02.1,Silviculture & Forestry,02.10,Silviculture & Other Forestry Activities,Forest Management,HarvestPlan
+A,"Agriculture, Forestry & Fishing",02,Forestry & Logging,02.1,Silviculture & Forestry,02.10,Silviculture & Other Forestry Activities,Forest Management,ForestInventory
+A,"Agriculture, Forestry & Fishing",02,Forestry & Logging,02.1,Silviculture & Forestry,02.10,Silviculture & Other Forestry Activities,Logging Operations,LoggingCrew
+A,"Agriculture, Forestry & Fishing",02,Forestry & Logging,02.1,Silviculture & Forestry,02.10,Silviculture & Other Forestry Activities,Logging Operations,TimberBatch
+A,"Agriculture, Forestry & Fishing",02,Forestry & Logging,02.1,Silviculture & Forestry,02.10,Silviculture & Other Forestry Activities,Logging Operations,Equipment
+A,"Agriculture, Forestry & Fishing",02,Forestry & Logging,02.1,Silviculture & Forestry,02.10,Silviculture & Other Forestry Activities,Logging Operations,SafetyIncident
+A,"Agriculture, Forestry & Fishing",02,Forestry & Logging,02.1,Silviculture & Forestry,02.10,Silviculture & Other Forestry Activities,Logging Operations,TransportOrder
+B,Mining & Quarrying,06,Extraction of Crude Petroleum & Natural Gas,06.1,Extraction of Crude Petroleum,06.10,Extraction of Crude Petroleum,Exploration & Drilling,Well
+B,Mining & Quarrying,06,Extraction of Crude Petroleum & Natural Gas,06.1,Extraction of Crude Petroleum,06.10,Extraction of Crude Petroleum,Exploration & Drilling,DrillingSite
+B,Mining & Quarrying,06,Extraction of Crude Petroleum & Natural Gas,06.1,Extraction of Crude Petroleum,06.10,Extraction of Crude Petroleum,Exploration & Drilling,GeologicalSurvey
+B,Mining & Quarrying,06,Extraction of Crude Petroleum & Natural Gas,06.1,Extraction of Crude Petroleum,06.10,Extraction of Crude Petroleum,Exploration & Drilling,DrillingLog
+B,Mining & Quarrying,06,Extraction of Crude Petroleum & Natural Gas,06.1,Extraction of Crude Petroleum,06.10,Extraction of Crude Petroleum,Exploration & Drilling,Reservoir
+B,Mining & Quarrying,06,Extraction of Crude Petroleum & Natural Gas,06.1,Extraction of Crude Petroleum,06.10,Extraction of Crude Petroleum,Production & Safety,ProductionRecord
+B,Mining & Quarrying,06,Extraction of Crude Petroleum & Natural Gas,06.1,Extraction of Crude Petroleum,06.10,Extraction of Crude Petroleum,Production & Safety,PipelineSegment
+B,Mining & Quarrying,06,Extraction of Crude Petroleum & Natural Gas,06.1,Extraction of Crude Petroleum,06.10,Extraction of Crude Petroleum,Production & Safety,SafetyInspection
+B,Mining & Quarrying,06,Extraction of Crude Petroleum & Natural Gas,06.1,Extraction of Crude Petroleum,06.10,Extraction of Crude Petroleum,Production & Safety,EnvironmentalMonitor
+B,Mining & Quarrying,06,Extraction of Crude Petroleum & Natural Gas,06.1,Extraction of Crude Petroleum,06.10,Extraction of Crude Petroleum,Production & Safety,WorkOrder
+B,Mining & Quarrying,06,Extraction of Crude Petroleum & Natural Gas,06.1,Extraction of Crude Petroleum,06.10,Extraction of Crude Petroleum,Logistics & Sales,OilBatch
+B,Mining & Quarrying,06,Extraction of Crude Petroleum & Natural Gas,06.1,Extraction of Crude Petroleum,06.10,Extraction of Crude Petroleum,Logistics & Sales,Tanker
+B,Mining & Quarrying,06,Extraction of Crude Petroleum & Natural Gas,06.1,Extraction of Crude Petroleum,06.10,Extraction of Crude Petroleum,Logistics & Sales,Refinery
+B,Mining & Quarrying,06,Extraction of Crude Petroleum & Natural Gas,06.1,Extraction of Crude Petroleum,06.10,Extraction of Crude Petroleum,Logistics & Sales,SalesContract
+B,Mining & Quarrying,06,Extraction of Crude Petroleum & Natural Gas,06.1,Extraction of Crude Petroleum,06.10,Extraction of Crude Petroleum,Logistics & Sales,PriceRecord
+B,Mining & Quarrying,08,Other Mining & Quarrying,08.1,"Quarrying of Stone, Sand & Clay",08.11,Quarrying of Ornamental & Building Stone,Quarry Operations,Quarry
+B,Mining & Quarrying,08,Other Mining & Quarrying,08.1,"Quarrying of Stone, Sand & Clay",08.11,Quarrying of Ornamental & Building Stone,Quarry Operations,BlastingRecord
+B,Mining & Quarrying,08,Other Mining & Quarrying,08.1,"Quarrying of Stone, Sand & Clay",08.11,Quarrying of Ornamental & Building Stone,Quarry Operations,MaterialBatch
+B,Mining & Quarrying,08,Other Mining & Quarrying,08.1,"Quarrying of Stone, Sand & Clay",08.11,Quarrying of Ornamental & Building Stone,Quarry Operations,Equipment
+B,Mining & Quarrying,08,Other Mining & Quarrying,08.1,"Quarrying of Stone, Sand & Clay",08.11,Quarrying of Ornamental & Building Stone,Quarry Operations,WorkOrder
+B,Mining & Quarrying,08,Other Mining & Quarrying,08.1,"Quarrying of Stone, Sand & Clay",08.11,Quarrying of Ornamental & Building Stone,Sales & Distribution,Customer
+B,Mining & Quarrying,08,Other Mining & Quarrying,08.1,"Quarrying of Stone, Sand & Clay",08.11,Quarrying of Ornamental & Building Stone,Sales & Distribution,SalesOrder
+B,Mining & Quarrying,08,Other Mining & Quarrying,08.1,"Quarrying of Stone, Sand & Clay",08.11,Quarrying of Ornamental & Building Stone,Sales & Distribution,DeliveryNote
+B,Mining & Quarrying,08,Other Mining & Quarrying,08.1,"Quarrying of Stone, Sand & Clay",08.11,Quarrying of Ornamental & Building Stone,Sales & Distribution,QualityGrade
+B,Mining & Quarrying,08,Other Mining & Quarrying,08.1,"Quarrying of Stone, Sand & Clay",08.11,Quarrying of Ornamental & Building Stone,Sales & Distribution,PriceList
+C,Manufacturing,10,Manufacture of Food Products,10.1,Processing & Preserving of Meat,10.11,Processing & Preserving of Meat,Slaughterhouse Operations,Animal
+C,Manufacturing,10,Manufacture of Food Products,10.1,Processing & Preserving of Meat,10.11,Processing & Preserving of Meat,Slaughterhouse Operations,SlaughterRecord
+C,Manufacturing,10,Manufacture of Food Products,10.1,Processing & Preserving of Meat,10.11,Processing & Preserving of Meat,Slaughterhouse Operations,Inspector
+C,Manufacturing,10,Manufacture of Food Products,10.1,Processing & Preserving of Meat,10.11,Processing & Preserving of Meat,Slaughterhouse Operations,CarcassGrade
+C,Manufacturing,10,Manufacture of Food Products,10.1,Processing & Preserving of Meat,10.11,Processing & Preserving of Meat,Slaughterhouse Operations,Batch
+C,Manufacturing,10,Manufacture of Food Products,10.1,Processing & Preserving of Meat,10.11,Processing & Preserving of Meat,Production & Packaging,ProductionLine
+C,Manufacturing,10,Manufacture of Food Products,10.1,Processing & Preserving of Meat,10.11,Processing & Preserving of Meat,Production & Packaging,Product
+C,Manufacturing,10,Manufacture of Food Products,10.1,Processing & Preserving of Meat,10.11,Processing & Preserving of Meat,Production & Packaging,PackagingUnit
+C,Manufacturing,10,Manufacture of Food Products,10.1,Processing & Preserving of Meat,10.11,Processing & Preserving of Meat,Production & Packaging,QualityCheck
+C,Manufacturing,10,Manufacture of Food Products,10.1,Processing & Preserving of Meat,10.11,Processing & Preserving of Meat,Production & Packaging,ExpiryDate
+C,Manufacturing,10,Manufacture of Food Products,10.1,Processing & Preserving of Meat,10.11,Processing & Preserving of Meat,Supply Chain,Supplier
+C,Manufacturing,10,Manufacture of Food Products,10.1,Processing & Preserving of Meat,10.11,Processing & Preserving of Meat,Supply Chain,PurchaseOrder
+C,Manufacturing,10,Manufacture of Food Products,10.1,Processing & Preserving of Meat,10.11,Processing & Preserving of Meat,Supply Chain,ColdChainLog
+C,Manufacturing,10,Manufacture of Food Products,10.1,Processing & Preserving of Meat,10.11,Processing & Preserving of Meat,Supply Chain,Warehouse
+C,Manufacturing,10,Manufacture of Food Products,10.1,Processing & Preserving of Meat,10.11,Processing & Preserving of Meat,Supply Chain,Customer
+C,Manufacturing,10,Manufacture of Food Products,10.5,Manufacture of Dairy Products,10.51,Operation of Dairies & Cheese Making,Intake & Processing,MilkDelivery
+C,Manufacturing,10,Manufacture of Food Products,10.5,Manufacture of Dairy Products,10.51,Operation of Dairies & Cheese Making,Intake & Processing,Supplier
+C,Manufacturing,10,Manufacture of Food Products,10.5,Manufacture of Dairy Products,10.51,Operation of Dairies & Cheese Making,Intake & Processing,QualityTest
+C,Manufacturing,10,Manufacture of Food Products,10.5,Manufacture of Dairy Products,10.51,Operation of Dairies & Cheese Making,Intake & Processing,PasteurizationBatch
+C,Manufacturing,10,Manufacture of Food Products,10.5,Manufacture of Dairy Products,10.51,Operation of Dairies & Cheese Making,Intake & Processing,Recipe
+C,Manufacturing,10,Manufacture of Food Products,10.5,Manufacture of Dairy Products,10.51,Operation of Dairies & Cheese Making,Production,Product
+C,Manufacturing,10,Manufacture of Food Products,10.5,Manufacture of Dairy Products,10.51,Operation of Dairies & Cheese Making,Production,ProductionRun
+C,Manufacturing,10,Manufacture of Food Products,10.5,Manufacture of Dairy Products,10.51,Operation of Dairies & Cheese Making,Production,Ingredient
+C,Manufacturing,10,Manufacture of Food Products,10.5,Manufacture of Dairy Products,10.51,Operation of Dairies & Cheese Making,Production,StorageCondition
+C,Manufacturing,10,Manufacture of Food Products,10.5,Manufacture of Dairy Products,10.51,Operation of Dairies & Cheese Making,Production,ExpiryRecord
+C,Manufacturing,10,Manufacture of Food Products,10.5,Manufacture of Dairy Products,10.51,Operation of Dairies & Cheese Making,Distribution,DistributionRoute
+C,Manufacturing,10,Manufacture of Food Products,10.5,Manufacture of Dairy Products,10.51,Operation of Dairies & Cheese Making,Distribution,Retailer
+C,Manufacturing,10,Manufacture of Food Products,10.5,Manufacture of Dairy Products,10.51,Operation of Dairies & Cheese Making,Distribution,Order
+C,Manufacturing,10,Manufacture of Food Products,10.5,Manufacture of Dairy Products,10.51,Operation of Dairies & Cheese Making,Distribution,Invoice
+C,Manufacturing,10,Manufacture of Food Products,10.5,Manufacture of Dairy Products,10.51,Operation of Dairies & Cheese Making,Distribution,ReturnRecord
+C,Manufacturing,26,"Manufacture of Computer, Electronic & Optical Products",26.1,Manufacture of Electronic Components & Boards,26.11,Manufacture of Electronic Components,R&D,ResearchProject
+C,Manufacturing,26,"Manufacture of Computer, Electronic & Optical Products",26.1,Manufacture of Electronic Components & Boards,26.11,Manufacture of Electronic Components,R&D,Prototype
+C,Manufacturing,26,"Manufacture of Computer, Electronic & Optical Products",26.1,Manufacture of Electronic Components & Boards,26.11,Manufacture of Electronic Components,R&D,Patent
+C,Manufacturing,26,"Manufacture of Computer, Electronic & Optical Products",26.1,Manufacture of Electronic Components & Boards,26.11,Manufacture of Electronic Components,R&D,TestResult
+C,Manufacturing,26,"Manufacture of Computer, Electronic & Optical Products",26.1,Manufacture of Electronic Components & Boards,26.11,Manufacture of Electronic Components,R&D,Engineer
+C,Manufacturing,26,"Manufacture of Computer, Electronic & Optical Products",26.1,Manufacture of Electronic Components & Boards,26.11,Manufacture of Electronic Components,Production,Component
+C,Manufacturing,26,"Manufacture of Computer, Electronic & Optical Products",26.1,Manufacture of Electronic Components & Boards,26.11,Manufacture of Electronic Components,Production,BillOfMaterials
+C,Manufacturing,26,"Manufacture of Computer, Electronic & Optical Products",26.1,Manufacture of Electronic Components & Boards,26.11,Manufacture of Electronic Components,Production,ProductionOrder
+C,Manufacturing,26,"Manufacture of Computer, Electronic & Optical Products",26.1,Manufacture of Electronic Components & Boards,26.11,Manufacture of Electronic Components,Production,QualityDefect
+C,Manufacturing,26,"Manufacture of Computer, Electronic & Optical Products",26.1,Manufacture of Electronic Components & Boards,26.11,Manufacture of Electronic Components,Production,MachineCycle
+C,Manufacturing,26,"Manufacture of Computer, Electronic & Optical Products",26.1,Manufacture of Electronic Components & Boards,26.11,Manufacture of Electronic Components,Supply Chain,RawMaterial
+C,Manufacturing,26,"Manufacture of Computer, Electronic & Optical Products",26.1,Manufacture of Electronic Components & Boards,26.11,Manufacture of Electronic Components,Supply Chain,Supplier
+C,Manufacturing,26,"Manufacture of Computer, Electronic & Optical Products",26.1,Manufacture of Electronic Components & Boards,26.11,Manufacture of Electronic Components,Supply Chain,PurchaseOrder
+C,Manufacturing,26,"Manufacture of Computer, Electronic & Optical Products",26.1,Manufacture of Electronic Components & Boards,26.11,Manufacture of Electronic Components,Supply Chain,Inventory
+C,Manufacturing,26,"Manufacture of Computer, Electronic & Optical Products",26.1,Manufacture of Electronic Components & Boards,26.11,Manufacture of Electronic Components,Supply Chain,Shipment
+C,Manufacturing,29,Manufacture of Motor Vehicles,29.1,Manufacture of Motor Vehicles,29.10,Manufacture of Motor Vehicles,Vehicle Design & Engineering,Vehicle
+C,Manufacturing,29,Manufacture of Motor Vehicles,29.1,Manufacture of Motor Vehicles,29.10,Manufacture of Motor Vehicles,Vehicle Design & Engineering,Model
+C,Manufacturing,29,Manufacture of Motor Vehicles,29.1,Manufacture of Motor Vehicles,29.10,Manufacture of Motor Vehicles,Vehicle Design & Engineering,DesignSpec
+C,Manufacturing,29,Manufacture of Motor Vehicles,29.1,Manufacture of Motor Vehicles,29.10,Manufacture of Motor Vehicles,Vehicle Design & Engineering,EngineeringChange
+C,Manufacturing,29,Manufacture of Motor Vehicles,29.1,Manufacture of Motor Vehicles,29.10,Manufacture of Motor Vehicles,Vehicle Design & Engineering,TestDrive
+C,Manufacturing,29,Manufacture of Motor Vehicles,29.1,Manufacture of Motor Vehicles,29.10,Manufacture of Motor Vehicles,Assembly Line,AssemblyStation
+C,Manufacturing,29,Manufacture of Motor Vehicles,29.1,Manufacture of Motor Vehicles,29.10,Manufacture of Motor Vehicles,Assembly Line,WorkOrder
+C,Manufacturing,29,Manufacture of Motor Vehicles,29.1,Manufacture of Motor Vehicles,29.10,Manufacture of Motor Vehicles,Assembly Line,Part
+C,Manufacturing,29,Manufacture of Motor Vehicles,29.1,Manufacture of Motor Vehicles,29.10,Manufacture of Motor Vehicles,Assembly Line,Defect
+C,Manufacturing,29,Manufacture of Motor Vehicles,29.1,Manufacture of Motor Vehicles,29.10,Manufacture of Motor Vehicles,Assembly Line,ShiftLog
+C,Manufacturing,29,Manufacture of Motor Vehicles,29.1,Manufacture of Motor Vehicles,29.10,Manufacture of Motor Vehicles,Quality & Compliance,QualityInspection
+C,Manufacturing,29,Manufacture of Motor Vehicles,29.1,Manufacture of Motor Vehicles,29.10,Manufacture of Motor Vehicles,Quality & Compliance,CrashTestRecord
+C,Manufacturing,29,Manufacture of Motor Vehicles,29.1,Manufacture of Motor Vehicles,29.10,Manufacture of Motor Vehicles,Quality & Compliance,Certification
+C,Manufacturing,29,Manufacture of Motor Vehicles,29.1,Manufacture of Motor Vehicles,29.10,Manufacture of Motor Vehicles,Quality & Compliance,Recall
+C,Manufacturing,29,Manufacture of Motor Vehicles,29.1,Manufacture of Motor Vehicles,29.10,Manufacture of Motor Vehicles,Sales & Dealer Network,Dealer
+C,Manufacturing,29,Manufacture of Motor Vehicles,29.1,Manufacture of Motor Vehicles,29.10,Manufacture of Motor Vehicles,Sales & Dealer Network,Customer
+C,Manufacturing,29,Manufacture of Motor Vehicles,29.1,Manufacture of Motor Vehicles,29.10,Manufacture of Motor Vehicles,Sales & Dealer Network,SalesOrder
+C,Manufacturing,29,Manufacture of Motor Vehicles,29.1,Manufacture of Motor Vehicles,29.10,Manufacture of Motor Vehicles,Sales & Dealer Network,Financing
+C,Manufacturing,29,Manufacture of Motor Vehicles,29.1,Manufacture of Motor Vehicles,29.10,Manufacture of Motor Vehicles,Sales & Dealer Network,Warranty
+D,"Electricity, Gas, Steam & Air Conditioning Supply",35,"Electricity, Gas, Steam & Air Conditioning Supply",35.1,"Electric Power Generation, Transmission & Distribution",35.11,Production of Electricity,Power Plant Operations,PowerPlant
+D,"Electricity, Gas, Steam & Air Conditioning Supply",35,"Electricity, Gas, Steam & Air Conditioning Supply",35.1,"Electric Power Generation, Transmission & Distribution",35.11,Production of Electricity,Power Plant Operations,Generator
+D,"Electricity, Gas, Steam & Air Conditioning Supply",35,"Electricity, Gas, Steam & Air Conditioning Supply",35.1,"Electric Power Generation, Transmission & Distribution",35.11,Production of Electricity,Power Plant Operations,FuelSupply
+D,"Electricity, Gas, Steam & Air Conditioning Supply",35,"Electricity, Gas, Steam & Air Conditioning Supply",35.1,"Electric Power Generation, Transmission & Distribution",35.11,Production of Electricity,Power Plant Operations,OutputRecord
+D,"Electricity, Gas, Steam & Air Conditioning Supply",35,"Electricity, Gas, Steam & Air Conditioning Supply",35.1,"Electric Power Generation, Transmission & Distribution",35.11,Production of Electricity,Power Plant Operations,MaintenanceLog
+D,"Electricity, Gas, Steam & Air Conditioning Supply",35,"Electricity, Gas, Steam & Air Conditioning Supply",35.1,"Electric Power Generation, Transmission & Distribution",35.11,Production of Electricity,Grid & Transmission,GridSegment
+D,"Electricity, Gas, Steam & Air Conditioning Supply",35,"Electricity, Gas, Steam & Air Conditioning Supply",35.1,"Electric Power Generation, Transmission & Distribution",35.11,Production of Electricity,Grid & Transmission,Substation
+D,"Electricity, Gas, Steam & Air Conditioning Supply",35,"Electricity, Gas, Steam & Air Conditioning Supply",35.1,"Electric Power Generation, Transmission & Distribution",35.11,Production of Electricity,Grid & Transmission,LoadRecord
+D,"Electricity, Gas, Steam & Air Conditioning Supply",35,"Electricity, Gas, Steam & Air Conditioning Supply",35.1,"Electric Power Generation, Transmission & Distribution",35.11,Production of Electricity,Grid & Transmission,Outage
+D,"Electricity, Gas, Steam & Air Conditioning Supply",35,"Electricity, Gas, Steam & Air Conditioning Supply",35.1,"Electric Power Generation, Transmission & Distribution",35.11,Production of Electricity,Grid & Transmission,Inspector
+D,"Electricity, Gas, Steam & Air Conditioning Supply",35,"Electricity, Gas, Steam & Air Conditioning Supply",35.1,"Electric Power Generation, Transmission & Distribution",35.11,Production of Electricity,Customer & Billing,Customer
+D,"Electricity, Gas, Steam & Air Conditioning Supply",35,"Electricity, Gas, Steam & Air Conditioning Supply",35.1,"Electric Power Generation, Transmission & Distribution",35.11,Production of Electricity,Customer & Billing,Meter
+D,"Electricity, Gas, Steam & Air Conditioning Supply",35,"Electricity, Gas, Steam & Air Conditioning Supply",35.1,"Electric Power Generation, Transmission & Distribution",35.11,Production of Electricity,Customer & Billing,MeterReading
+D,"Electricity, Gas, Steam & Air Conditioning Supply",35,"Electricity, Gas, Steam & Air Conditioning Supply",35.1,"Electric Power Generation, Transmission & Distribution",35.11,Production of Electricity,Customer & Billing,Invoice
+D,"Electricity, Gas, Steam & Air Conditioning Supply",35,"Electricity, Gas, Steam & Air Conditioning Supply",35.1,"Electric Power Generation, Transmission & Distribution",35.11,Production of Electricity,Customer & Billing,Contract
+D,"Electricity, Gas, Steam & Air Conditioning Supply",35,"Electricity, Gas, Steam & Air Conditioning Supply",35.1,"Electric Power Generation, Transmission & Distribution",35.11,Production of Electricity,Customer & Billing,Tariff
+E,"Water Supply, Sewerage & Waste Management",36,"Water Collection, Treatment & Supply",36.0,"Water Collection, Treatment & Supply",36.00,"Water Collection, Treatment & Supply",Source & Treatment,WaterSource
+E,"Water Supply, Sewerage & Waste Management",36,"Water Collection, Treatment & Supply",36.0,"Water Collection, Treatment & Supply",36.00,"Water Collection, Treatment & Supply",Source & Treatment,TreatmentPlant
+E,"Water Supply, Sewerage & Waste Management",36,"Water Collection, Treatment & Supply",36.0,"Water Collection, Treatment & Supply",36.00,"Water Collection, Treatment & Supply",Source & Treatment,ChemicalDose
+E,"Water Supply, Sewerage & Waste Management",36,"Water Collection, Treatment & Supply",36.0,"Water Collection, Treatment & Supply",36.00,"Water Collection, Treatment & Supply",Source & Treatment,QualityTest
+E,"Water Supply, Sewerage & Waste Management",36,"Water Collection, Treatment & Supply",36.0,"Water Collection, Treatment & Supply",36.00,"Water Collection, Treatment & Supply",Source & Treatment,OutputLog
+E,"Water Supply, Sewerage & Waste Management",36,"Water Collection, Treatment & Supply",36.0,"Water Collection, Treatment & Supply",36.00,"Water Collection, Treatment & Supply",Distribution Network,PipelineSegment
+E,"Water Supply, Sewerage & Waste Management",36,"Water Collection, Treatment & Supply",36.0,"Water Collection, Treatment & Supply",36.00,"Water Collection, Treatment & Supply",Distribution Network,Pump
+E,"Water Supply, Sewerage & Waste Management",36,"Water Collection, Treatment & Supply",36.0,"Water Collection, Treatment & Supply",36.00,"Water Collection, Treatment & Supply",Distribution Network,LeakReport
+E,"Water Supply, Sewerage & Waste Management",36,"Water Collection, Treatment & Supply",36.0,"Water Collection, Treatment & Supply",36.00,"Water Collection, Treatment & Supply",Distribution Network,PressureReading
+E,"Water Supply, Sewerage & Waste Management",36,"Water Collection, Treatment & Supply",36.0,"Water Collection, Treatment & Supply",36.00,"Water Collection, Treatment & Supply",Distribution Network,MaintenanceOrder
+E,"Water Supply, Sewerage & Waste Management",36,"Water Collection, Treatment & Supply",36.0,"Water Collection, Treatment & Supply",36.00,"Water Collection, Treatment & Supply",Customer Services,Customer
+E,"Water Supply, Sewerage & Waste Management",36,"Water Collection, Treatment & Supply",36.0,"Water Collection, Treatment & Supply",36.00,"Water Collection, Treatment & Supply",Customer Services,ServiceConnection
+E,"Water Supply, Sewerage & Waste Management",36,"Water Collection, Treatment & Supply",36.0,"Water Collection, Treatment & Supply",36.00,"Water Collection, Treatment & Supply",Customer Services,Invoice
+E,"Water Supply, Sewerage & Waste Management",36,"Water Collection, Treatment & Supply",36.0,"Water Collection, Treatment & Supply",36.00,"Water Collection, Treatment & Supply",Customer Services,Complaint
+E,"Water Supply, Sewerage & Waste Management",36,"Water Collection, Treatment & Supply",36.0,"Water Collection, Treatment & Supply",36.00,"Water Collection, Treatment & Supply",Customer Services,Meter
+E,"Water Supply, Sewerage & Waste Management",38,"Waste Collection, Treatment & Disposal",38.1,Waste Collection,38.11,Collection of Non-Hazardous Waste,Collection Operations,CollectionRoute
+E,"Water Supply, Sewerage & Waste Management",38,"Waste Collection, Treatment & Disposal",38.1,Waste Collection,38.11,Collection of Non-Hazardous Waste,Collection Operations,Vehicle
+E,"Water Supply, Sewerage & Waste Management",38,"Waste Collection, Treatment & Disposal",38.1,Waste Collection,38.11,Collection of Non-Hazardous Waste,Collection Operations,WasteBin
+E,"Water Supply, Sewerage & Waste Management",38,"Waste Collection, Treatment & Disposal",38.1,Waste Collection,38.11,Collection of Non-Hazardous Waste,Collection Operations,CollectionLog
+E,"Water Supply, Sewerage & Waste Management",38,"Waste Collection, Treatment & Disposal",38.1,Waste Collection,38.11,Collection of Non-Hazardous Waste,Collection Operations,Driver
+E,"Water Supply, Sewerage & Waste Management",38,"Waste Collection, Treatment & Disposal",38.1,Waste Collection,38.11,Collection of Non-Hazardous Waste,Sorting & Processing,SortingFacility
+E,"Water Supply, Sewerage & Waste Management",38,"Waste Collection, Treatment & Disposal",38.1,Waste Collection,38.11,Collection of Non-Hazardous Waste,Sorting & Processing,MaterialCategory
+E,"Water Supply, Sewerage & Waste Management",38,"Waste Collection, Treatment & Disposal",38.1,Waste Collection,38.11,Collection of Non-Hazardous Waste,Sorting & Processing,ProcessedBatch
+E,"Water Supply, Sewerage & Waste Management",38,"Waste Collection, Treatment & Disposal",38.1,Waste Collection,38.11,Collection of Non-Hazardous Waste,Sorting & Processing,RecyclingRecord
+E,"Water Supply, Sewerage & Waste Management",38,"Waste Collection, Treatment & Disposal",38.1,Waste Collection,38.11,Collection of Non-Hazardous Waste,Sorting & Processing,Contractor
+F,Construction,41,Construction of Buildings,41.2,Construction of Residential & Non-Residential Buildings,41.20,Construction of Residential & Non-Residential Buildings,Project Management,Project
+F,Construction,41,Construction of Buildings,41.2,Construction of Residential & Non-Residential Buildings,41.20,Construction of Residential & Non-Residential Buildings,Project Management,Client
+F,Construction,41,Construction of Buildings,41.2,Construction of Residential & Non-Residential Buildings,41.20,Construction of Residential & Non-Residential Buildings,Project Management,Contract
+F,Construction,41,Construction of Buildings,41.2,Construction of Residential & Non-Residential Buildings,41.20,Construction of Residential & Non-Residential Buildings,Project Management,Milestone
+F,Construction,41,Construction of Buildings,41.2,Construction of Residential & Non-Residential Buildings,41.20,Construction of Residential & Non-Residential Buildings,Project Management,RiskLog
+F,Construction,41,Construction of Buildings,41.2,Construction of Residential & Non-Residential Buildings,41.20,Construction of Residential & Non-Residential Buildings,Site Operations,Site
+F,Construction,41,Construction of Buildings,41.2,Construction of Residential & Non-Residential Buildings,41.20,Construction of Residential & Non-Residential Buildings,Site Operations,WorkCrew
+F,Construction,41,Construction of Buildings,41.2,Construction of Residential & Non-Residential Buildings,41.20,Construction of Residential & Non-Residential Buildings,Site Operations,DailyLog
+F,Construction,41,Construction of Buildings,41.2,Construction of Residential & Non-Residential Buildings,41.20,Construction of Residential & Non-Residential Buildings,Site Operations,Equipment
+F,Construction,41,Construction of Buildings,41.2,Construction of Residential & Non-Residential Buildings,41.20,Construction of Residential & Non-Residential Buildings,Site Operations,SafetyIncident
+F,Construction,41,Construction of Buildings,41.2,Construction of Residential & Non-Residential Buildings,41.20,Construction of Residential & Non-Residential Buildings,Materials & Procurement,Material
+F,Construction,41,Construction of Buildings,41.2,Construction of Residential & Non-Residential Buildings,41.20,Construction of Residential & Non-Residential Buildings,Materials & Procurement,Supplier
+F,Construction,41,Construction of Buildings,41.2,Construction of Residential & Non-Residential Buildings,41.20,Construction of Residential & Non-Residential Buildings,Materials & Procurement,PurchaseOrder
+F,Construction,41,Construction of Buildings,41.2,Construction of Residential & Non-Residential Buildings,41.20,Construction of Residential & Non-Residential Buildings,Materials & Procurement,Delivery
+F,Construction,41,Construction of Buildings,41.2,Construction of Residential & Non-Residential Buildings,41.20,Construction of Residential & Non-Residential Buildings,Materials & Procurement,Inventory
+F,Construction,41,Construction of Buildings,41.2,Construction of Residential & Non-Residential Buildings,41.20,Construction of Residential & Non-Residential Buildings,Finance & Billing,Budget
+F,Construction,41,Construction of Buildings,41.2,Construction of Residential & Non-Residential Buildings,41.20,Construction of Residential & Non-Residential Buildings,Finance & Billing,Invoice
+F,Construction,41,Construction of Buildings,41.2,Construction of Residential & Non-Residential Buildings,41.20,Construction of Residential & Non-Residential Buildings,Finance & Billing,PaymentClaim
+F,Construction,41,Construction of Buildings,41.2,Construction of Residential & Non-Residential Buildings,41.20,Construction of Residential & Non-Residential Buildings,Finance & Billing,CostVariance
+F,Construction,41,Construction of Buildings,41.2,Construction of Residential & Non-Residential Buildings,41.20,Construction of Residential & Non-Residential Buildings,Finance & Billing,Subcontractor
+F,Construction,43,Specialised Construction Activities,43.2,"Electrical, Plumbing & Other Installation",43.21,Electrical Installation,Installation Team,Job
+F,Construction,43,Specialised Construction Activities,43.2,"Electrical, Plumbing & Other Installation",43.21,Electrical Installation,Installation Team,Technician
+F,Construction,43,Specialised Construction Activities,43.2,"Electrical, Plumbing & Other Installation",43.21,Electrical Installation,Installation Team,Appointment
+F,Construction,43,Specialised Construction Activities,43.2,"Electrical, Plumbing & Other Installation",43.21,Electrical Installation,Installation Team,MaterialUsed
+F,Construction,43,Specialised Construction Activities,43.2,"Electrical, Plumbing & Other Installation",43.21,Electrical Installation,Installation Team,CompletionReport
+F,Construction,43,Specialised Construction Activities,43.2,"Electrical, Plumbing & Other Installation",43.21,Electrical Installation,Customer & Billing,Client
+F,Construction,43,Specialised Construction Activities,43.2,"Electrical, Plumbing & Other Installation",43.21,Electrical Installation,Customer & Billing,Quote
+F,Construction,43,Specialised Construction Activities,43.2,"Electrical, Plumbing & Other Installation",43.21,Electrical Installation,Customer & Billing,Invoice
+F,Construction,43,Specialised Construction Activities,43.2,"Electrical, Plumbing & Other Installation",43.21,Electrical Installation,Customer & Billing,Warranty
+F,Construction,43,Specialised Construction Activities,43.2,"Electrical, Plumbing & Other Installation",43.21,Electrical Installation,Customer & Billing,Complaint
+G,Wholesale & Retail Trade,46,Wholesale Trade (except Motor Vehicles),46.1,Wholesale on a Fee or Contract Basis,46.11,Agents in Agricultural Raw Materials,Trading Operations,Agent
+G,Wholesale & Retail Trade,46,Wholesale Trade (except Motor Vehicles),46.1,Wholesale on a Fee or Contract Basis,46.11,Agents in Agricultural Raw Materials,Trading Operations,Principal
+G,Wholesale & Retail Trade,46,Wholesale Trade (except Motor Vehicles),46.1,Wholesale on a Fee or Contract Basis,46.11,Agents in Agricultural Raw Materials,Trading Operations,Commodity
+G,Wholesale & Retail Trade,46,Wholesale Trade (except Motor Vehicles),46.1,Wholesale on a Fee or Contract Basis,46.11,Agents in Agricultural Raw Materials,Trading Operations,TradeContract
+G,Wholesale & Retail Trade,46,Wholesale Trade (except Motor Vehicles),46.1,Wholesale on a Fee or Contract Basis,46.11,Agents in Agricultural Raw Materials,Trading Operations,Commission
+G,Wholesale & Retail Trade,46,Wholesale Trade (except Motor Vehicles),46.1,Wholesale on a Fee or Contract Basis,46.11,Agents in Agricultural Raw Materials,Logistics,Shipment
+G,Wholesale & Retail Trade,46,Wholesale Trade (except Motor Vehicles),46.1,Wholesale on a Fee or Contract Basis,46.11,Agents in Agricultural Raw Materials,Logistics,Warehouse
+G,Wholesale & Retail Trade,46,Wholesale Trade (except Motor Vehicles),46.1,Wholesale on a Fee or Contract Basis,46.11,Agents in Agricultural Raw Materials,Logistics,StorageLot
+G,Wholesale & Retail Trade,46,Wholesale Trade (except Motor Vehicles),46.1,Wholesale on a Fee or Contract Basis,46.11,Agents in Agricultural Raw Materials,Logistics,Inspection
+G,Wholesale & Retail Trade,46,Wholesale Trade (except Motor Vehicles),46.1,Wholesale on a Fee or Contract Basis,46.11,Agents in Agricultural Raw Materials,Logistics,CustomsDocument
+G,Wholesale & Retail Trade,47,Retail Trade (except Motor Vehicles),47.1,Retail in Non-Specialised Stores,47.11,"Retail in Non-Specialised Stores (Food, Beverages, Tobacco)",Store Operations,Store
+G,Wholesale & Retail Trade,47,Retail Trade (except Motor Vehicles),47.1,Retail in Non-Specialised Stores,47.11,"Retail in Non-Specialised Stores (Food, Beverages, Tobacco)",Store Operations,Employee
+G,Wholesale & Retail Trade,47,Retail Trade (except Motor Vehicles),47.1,Retail in Non-Specialised Stores,47.11,"Retail in Non-Specialised Stores (Food, Beverages, Tobacco)",Store Operations,ShiftSchedule
+G,Wholesale & Retail Trade,47,Retail Trade (except Motor Vehicles),47.1,Retail in Non-Specialised Stores,47.11,"Retail in Non-Specialised Stores (Food, Beverages, Tobacco)",Store Operations,CashRegister
+G,Wholesale & Retail Trade,47,Retail Trade (except Motor Vehicles),47.1,Retail in Non-Specialised Stores,47.11,"Retail in Non-Specialised Stores (Food, Beverages, Tobacco)",Store Operations,Promotion
+G,Wholesale & Retail Trade,47,Retail Trade (except Motor Vehicles),47.1,Retail in Non-Specialised Stores,47.11,"Retail in Non-Specialised Stores (Food, Beverages, Tobacco)",Inventory & Purchasing,Product
+G,Wholesale & Retail Trade,47,Retail Trade (except Motor Vehicles),47.1,Retail in Non-Specialised Stores,47.11,"Retail in Non-Specialised Stores (Food, Beverages, Tobacco)",Inventory & Purchasing,Category
+G,Wholesale & Retail Trade,47,Retail Trade (except Motor Vehicles),47.1,Retail in Non-Specialised Stores,47.11,"Retail in Non-Specialised Stores (Food, Beverages, Tobacco)",Inventory & Purchasing,StockLevel
+G,Wholesale & Retail Trade,47,Retail Trade (except Motor Vehicles),47.1,Retail in Non-Specialised Stores,47.11,"Retail in Non-Specialised Stores (Food, Beverages, Tobacco)",Inventory & Purchasing,PurchaseOrder
+G,Wholesale & Retail Trade,47,Retail Trade (except Motor Vehicles),47.1,Retail in Non-Specialised Stores,47.11,"Retail in Non-Specialised Stores (Food, Beverages, Tobacco)",Inventory & Purchasing,Supplier
+G,Wholesale & Retail Trade,47,Retail Trade (except Motor Vehicles),47.1,Retail in Non-Specialised Stores,47.11,"Retail in Non-Specialised Stores (Food, Beverages, Tobacco)",Customer & Sales,Customer
+G,Wholesale & Retail Trade,47,Retail Trade (except Motor Vehicles),47.1,Retail in Non-Specialised Stores,47.11,"Retail in Non-Specialised Stores (Food, Beverages, Tobacco)",Customer & Sales,Transaction
+G,Wholesale & Retail Trade,47,Retail Trade (except Motor Vehicles),47.1,Retail in Non-Specialised Stores,47.11,"Retail in Non-Specialised Stores (Food, Beverages, Tobacco)",Customer & Sales,Receipt
+G,Wholesale & Retail Trade,47,Retail Trade (except Motor Vehicles),47.1,Retail in Non-Specialised Stores,47.11,"Retail in Non-Specialised Stores (Food, Beverages, Tobacco)",Customer & Sales,LoyaltyCard
+G,Wholesale & Retail Trade,47,Retail Trade (except Motor Vehicles),47.1,Retail in Non-Specialised Stores,47.11,"Retail in Non-Specialised Stores (Food, Beverages, Tobacco)",Customer & Sales,Return
+H,Transportation & Storage,49,Land Transport & Transport via Pipelines,49.1,"Passenger Rail Transport, Interurban",49.10,"Passenger Rail Transport, Interurban",Network & Timetable,Line
+H,Transportation & Storage,49,Land Transport & Transport via Pipelines,49.1,"Passenger Rail Transport, Interurban",49.10,"Passenger Rail Transport, Interurban",Network & Timetable,Station
+H,Transportation & Storage,49,Land Transport & Transport via Pipelines,49.1,"Passenger Rail Transport, Interurban",49.10,"Passenger Rail Transport, Interurban",Network & Timetable,Route
+H,Transportation & Storage,49,Land Transport & Transport via Pipelines,49.1,"Passenger Rail Transport, Interurban",49.10,"Passenger Rail Transport, Interurban",Network & Timetable,Schedule
+H,Transportation & Storage,49,Land Transport & Transport via Pipelines,49.1,"Passenger Rail Transport, Interurban",49.10,"Passenger Rail Transport, Interurban",Network & Timetable,Disruption
+H,Transportation & Storage,49,Land Transport & Transport via Pipelines,49.1,"Passenger Rail Transport, Interurban",49.10,"Passenger Rail Transport, Interurban",Fleet Management,Train
+H,Transportation & Storage,49,Land Transport & Transport via Pipelines,49.1,"Passenger Rail Transport, Interurban",49.10,"Passenger Rail Transport, Interurban",Fleet Management,Carriage
+H,Transportation & Storage,49,Land Transport & Transport via Pipelines,49.1,"Passenger Rail Transport, Interurban",49.10,"Passenger Rail Transport, Interurban",Fleet Management,MaintenanceRecord
+H,Transportation & Storage,49,Land Transport & Transport via Pipelines,49.1,"Passenger Rail Transport, Interurban",49.10,"Passenger Rail Transport, Interurban",Fleet Management,Inspection
+H,Transportation & Storage,49,Land Transport & Transport via Pipelines,49.1,"Passenger Rail Transport, Interurban",49.10,"Passenger Rail Transport, Interurban",Fleet Management,Driver
+H,Transportation & Storage,49,Land Transport & Transport via Pipelines,49.1,"Passenger Rail Transport, Interurban",49.10,"Passenger Rail Transport, Interurban",Ticketing & Passengers,Ticket
+H,Transportation & Storage,49,Land Transport & Transport via Pipelines,49.1,"Passenger Rail Transport, Interurban",49.10,"Passenger Rail Transport, Interurban",Ticketing & Passengers,Passenger
+H,Transportation & Storage,49,Land Transport & Transport via Pipelines,49.1,"Passenger Rail Transport, Interurban",49.10,"Passenger Rail Transport, Interurban",Ticketing & Passengers,Booking
+H,Transportation & Storage,49,Land Transport & Transport via Pipelines,49.1,"Passenger Rail Transport, Interurban",49.10,"Passenger Rail Transport, Interurban",Ticketing & Passengers,Tariff
+H,Transportation & Storage,49,Land Transport & Transport via Pipelines,49.1,"Passenger Rail Transport, Interurban",49.10,"Passenger Rail Transport, Interurban",Ticketing & Passengers,Refund
+H,Transportation & Storage,49,Land Transport & Transport via Pipelines,49.4,Freight Transport by Road,49.41,Freight Transport by Road,Fleet & Drivers,Vehicle
+H,Transportation & Storage,49,Land Transport & Transport via Pipelines,49.4,Freight Transport by Road,49.41,Freight Transport by Road,Fleet & Drivers,Driver
+H,Transportation & Storage,49,Land Transport & Transport via Pipelines,49.4,Freight Transport by Road,49.41,Freight Transport by Road,Fleet & Drivers,License
+H,Transportation & Storage,49,Land Transport & Transport via Pipelines,49.4,Freight Transport by Road,49.41,Freight Transport by Road,Fleet & Drivers,MaintenanceRecord
+H,Transportation & Storage,49,Land Transport & Transport via Pipelines,49.4,Freight Transport by Road,49.41,Freight Transport by Road,Fleet & Drivers,FuelLog
+H,Transportation & Storage,49,Land Transport & Transport via Pipelines,49.4,Freight Transport by Road,49.41,Freight Transport by Road,Shipment Operations,Shipment
+H,Transportation & Storage,49,Land Transport & Transport via Pipelines,49.4,Freight Transport by Road,49.41,Freight Transport by Road,Shipment Operations,Route
+H,Transportation & Storage,49,Land Transport & Transport via Pipelines,49.4,Freight Transport by Road,49.41,Freight Transport by Road,Shipment Operations,Waypoint
+H,Transportation & Storage,49,Land Transport & Transport via Pipelines,49.4,Freight Transport by Road,49.41,Freight Transport by Road,Shipment Operations,DeliveryProof
+H,Transportation & Storage,49,Land Transport & Transport via Pipelines,49.4,Freight Transport by Road,49.41,Freight Transport by Road,Shipment Operations,Incident
+H,Transportation & Storage,49,Land Transport & Transport via Pipelines,49.4,Freight Transport by Road,49.41,Freight Transport by Road,Customer & Billing,Client
+H,Transportation & Storage,49,Land Transport & Transport via Pipelines,49.4,Freight Transport by Road,49.41,Freight Transport by Road,Customer & Billing,FreightOrder
+H,Transportation & Storage,49,Land Transport & Transport via Pipelines,49.4,Freight Transport by Road,49.41,Freight Transport by Road,Customer & Billing,Invoice
+H,Transportation & Storage,49,Land Transport & Transport via Pipelines,49.4,Freight Transport by Road,49.41,Freight Transport by Road,Customer & Billing,Complaint
+H,Transportation & Storage,49,Land Transport & Transport via Pipelines,49.4,Freight Transport by Road,49.41,Freight Transport by Road,Customer & Billing,RateCard
+H,Transportation & Storage,52,Warehousing & Support Activities for Transportation,52.1,Warehousing & Storage,52.10,Warehousing & Storage,Warehouse Management,Warehouse
+H,Transportation & Storage,52,Warehousing & Support Activities for Transportation,52.1,Warehousing & Storage,52.10,Warehousing & Storage,Warehouse Management,Zone
+H,Transportation & Storage,52,Warehousing & Support Activities for Transportation,52.1,Warehousing & Storage,52.10,Warehousing & Storage,Warehouse Management,Rack
+H,Transportation & Storage,52,Warehousing & Support Activities for Transportation,52.1,Warehousing & Storage,52.10,Warehousing & Storage,Warehouse Management,StorageUnit
+H,Transportation & Storage,52,Warehousing & Support Activities for Transportation,52.1,Warehousing & Storage,52.10,Warehousing & Storage,Warehouse Management,StockMovement
+H,Transportation & Storage,52,Warehousing & Support Activities for Transportation,52.1,Warehousing & Storage,52.10,Warehousing & Storage,Inbound & Outbound,GoodsReceipt
+H,Transportation & Storage,52,Warehousing & Support Activities for Transportation,52.1,Warehousing & Storage,52.10,Warehousing & Storage,Inbound & Outbound,PutAway
+H,Transportation & Storage,52,Warehousing & Support Activities for Transportation,52.1,Warehousing & Storage,52.10,Warehousing & Storage,Inbound & Outbound,PickOrder
+H,Transportation & Storage,52,Warehousing & Support Activities for Transportation,52.1,Warehousing & Storage,52.10,Warehousing & Storage,Inbound & Outbound,Shipment
+H,Transportation & Storage,52,Warehousing & Support Activities for Transportation,52.1,Warehousing & Storage,52.10,Warehousing & Storage,Inbound & Outbound,PackingList
+H,Transportation & Storage,52,Warehousing & Support Activities for Transportation,52.1,Warehousing & Storage,52.10,Warehousing & Storage,Client & Billing,Client
+H,Transportation & Storage,52,Warehousing & Support Activities for Transportation,52.1,Warehousing & Storage,52.10,Warehousing & Storage,Client & Billing,StorageContract
+H,Transportation & Storage,52,Warehousing & Support Activities for Transportation,52.1,Warehousing & Storage,52.10,Warehousing & Storage,Client & Billing,Invoice
+H,Transportation & Storage,52,Warehousing & Support Activities for Transportation,52.1,Warehousing & Storage,52.10,Warehousing & Storage,Client & Billing,CapacityRecord
+H,Transportation & Storage,52,Warehousing & Support Activities for Transportation,52.1,Warehousing & Storage,52.10,Warehousing & Storage,Client & Billing,DamageReport
+I,Accommodation & Food Service,55,Accommodation,55.1,Hotels & Similar Accommodation,55.10,Hotels & Similar Accommodation,Reservations & Front Desk,Guest
+I,Accommodation & Food Service,55,Accommodation,55.1,Hotels & Similar Accommodation,55.10,Hotels & Similar Accommodation,Reservations & Front Desk,Reservation
+I,Accommodation & Food Service,55,Accommodation,55.1,Hotels & Similar Accommodation,55.10,Hotels & Similar Accommodation,Reservations & Front Desk,Room
+I,Accommodation & Food Service,55,Accommodation,55.1,Hotels & Similar Accommodation,55.10,Hotels & Similar Accommodation,Reservations & Front Desk,RoomType
+I,Accommodation & Food Service,55,Accommodation,55.1,Hotels & Similar Accommodation,55.10,Hotels & Similar Accommodation,Reservations & Front Desk,CheckIn
+I,Accommodation & Food Service,55,Accommodation,55.1,Hotels & Similar Accommodation,55.10,Hotels & Similar Accommodation,Reservations & Front Desk,CheckOut
+I,Accommodation & Food Service,55,Accommodation,55.1,Hotels & Similar Accommodation,55.10,Hotels & Similar Accommodation,Housekeeping & Maintenance,CleaningTask
+I,Accommodation & Food Service,55,Accommodation,55.1,Hotels & Similar Accommodation,55.10,Hotels & Similar Accommodation,Housekeeping & Maintenance,MaintenanceRequest
+I,Accommodation & Food Service,55,Accommodation,55.1,Hotels & Similar Accommodation,55.10,Hotels & Similar Accommodation,Housekeeping & Maintenance,Staff
+I,Accommodation & Food Service,55,Accommodation,55.1,Hotels & Similar Accommodation,55.10,Hotels & Similar Accommodation,Housekeeping & Maintenance,InspectionReport
+I,Accommodation & Food Service,55,Accommodation,55.1,Hotels & Similar Accommodation,55.10,Hotels & Similar Accommodation,Food & Beverage,Restaurant
+I,Accommodation & Food Service,55,Accommodation,55.1,Hotels & Similar Accommodation,55.10,Hotels & Similar Accommodation,Food & Beverage,MenuItem
+I,Accommodation & Food Service,55,Accommodation,55.1,Hotels & Similar Accommodation,55.10,Hotels & Similar Accommodation,Food & Beverage,Order
+I,Accommodation & Food Service,55,Accommodation,55.1,Hotels & Similar Accommodation,55.10,Hotels & Similar Accommodation,Food & Beverage,Table
+I,Accommodation & Food Service,55,Accommodation,55.1,Hotels & Similar Accommodation,55.10,Hotels & Similar Accommodation,Food & Beverage,KitchenTicket
+I,Accommodation & Food Service,55,Accommodation,55.1,Hotels & Similar Accommodation,55.10,Hotels & Similar Accommodation,Billing & Revenue,Invoice
+I,Accommodation & Food Service,55,Accommodation,55.1,Hotels & Similar Accommodation,55.10,Hotels & Similar Accommodation,Billing & Revenue,Payment
+I,Accommodation & Food Service,55,Accommodation,55.1,Hotels & Similar Accommodation,55.10,Hotels & Similar Accommodation,Billing & Revenue,RateCalendar
+I,Accommodation & Food Service,55,Accommodation,55.1,Hotels & Similar Accommodation,55.10,Hotels & Similar Accommodation,Billing & Revenue,Discount
+I,Accommodation & Food Service,55,Accommodation,55.1,Hotels & Similar Accommodation,55.10,Hotels & Similar Accommodation,Billing & Revenue,Review
+I,Accommodation & Food Service,56,Food & Beverage Service Activities,56.1,Restaurants & Mobile Food Service,56.10,Restaurants & Mobile Food Service,Restaurant Operations,Table
+I,Accommodation & Food Service,56,Food & Beverage Service Activities,56.1,Restaurants & Mobile Food Service,56.10,Restaurants & Mobile Food Service,Restaurant Operations,Reservation
+I,Accommodation & Food Service,56,Food & Beverage Service Activities,56.1,Restaurants & Mobile Food Service,56.10,Restaurants & Mobile Food Service,Restaurant Operations,Order
+I,Accommodation & Food Service,56,Food & Beverage Service Activities,56.1,Restaurants & Mobile Food Service,56.10,Restaurants & Mobile Food Service,Restaurant Operations,MenuItem
+I,Accommodation & Food Service,56,Food & Beverage Service Activities,56.1,Restaurants & Mobile Food Service,56.10,Restaurants & Mobile Food Service,Restaurant Operations,Staff
+I,Accommodation & Food Service,56,Food & Beverage Service Activities,56.1,Restaurants & Mobile Food Service,56.10,Restaurants & Mobile Food Service,Restaurant Operations,Shift
+I,Accommodation & Food Service,56,Food & Beverage Service Activities,56.1,Restaurants & Mobile Food Service,56.10,Restaurants & Mobile Food Service,Kitchen & Inventory,Recipe
+I,Accommodation & Food Service,56,Food & Beverage Service Activities,56.1,Restaurants & Mobile Food Service,56.10,Restaurants & Mobile Food Service,Kitchen & Inventory,Ingredient
+I,Accommodation & Food Service,56,Food & Beverage Service Activities,56.1,Restaurants & Mobile Food Service,56.10,Restaurants & Mobile Food Service,Kitchen & Inventory,StockLevel
+I,Accommodation & Food Service,56,Food & Beverage Service Activities,56.1,Restaurants & Mobile Food Service,56.10,Restaurants & Mobile Food Service,Kitchen & Inventory,Supplier
+I,Accommodation & Food Service,56,Food & Beverage Service Activities,56.1,Restaurants & Mobile Food Service,56.10,Restaurants & Mobile Food Service,Kitchen & Inventory,WasteLog
+I,Accommodation & Food Service,56,Food & Beverage Service Activities,56.1,Restaurants & Mobile Food Service,56.10,Restaurants & Mobile Food Service,Billing & Customer,Bill
+I,Accommodation & Food Service,56,Food & Beverage Service Activities,56.1,Restaurants & Mobile Food Service,56.10,Restaurants & Mobile Food Service,Billing & Customer,Payment
+I,Accommodation & Food Service,56,Food & Beverage Service Activities,56.1,Restaurants & Mobile Food Service,56.10,Restaurants & Mobile Food Service,Billing & Customer,Discount
+I,Accommodation & Food Service,56,Food & Beverage Service Activities,56.1,Restaurants & Mobile Food Service,56.10,Restaurants & Mobile Food Service,Billing & Customer,Review
+I,Accommodation & Food Service,56,Food & Beverage Service Activities,56.1,Restaurants & Mobile Food Service,56.10,Restaurants & Mobile Food Service,Billing & Customer,LoyaltyAccount
+J,Information & Communication,61,Telecommunications,61.1,Wired Telecommunications,61.10,Wired Telecommunications Activities,Network Infrastructure,NetworkNode
+J,Information & Communication,61,Telecommunications,61.1,Wired Telecommunications,61.10,Wired Telecommunications Activities,Network Infrastructure,Cable
+J,Information & Communication,61,Telecommunications,61.1,Wired Telecommunications,61.10,Wired Telecommunications Activities,Network Infrastructure,Bandwidth
+J,Information & Communication,61,Telecommunications,61.1,Wired Telecommunications,61.10,Wired Telecommunications Activities,Network Infrastructure,Outage
+J,Information & Communication,61,Telecommunications,61.1,Wired Telecommunications,61.10,Wired Telecommunications Activities,Network Infrastructure,MaintenanceOrder
+J,Information & Communication,61,Telecommunications,61.1,Wired Telecommunications,61.10,Wired Telecommunications Activities,Customer Management,Customer
+J,Information & Communication,61,Telecommunications,61.1,Wired Telecommunications,61.10,Wired Telecommunications Activities,Customer Management,Subscription
+J,Information & Communication,61,Telecommunications,61.1,Wired Telecommunications,61.10,Wired Telecommunications Activities,Customer Management,Plan
+J,Information & Communication,61,Telecommunications,61.1,Wired Telecommunications,61.10,Wired Telecommunications Activities,Customer Management,SIMCard
+J,Information & Communication,61,Telecommunications,61.1,Wired Telecommunications,61.10,Wired Telecommunications Activities,Customer Management,Contract
+J,Information & Communication,61,Telecommunications,61.1,Wired Telecommunications,61.10,Wired Telecommunications Activities,Billing & Support,Invoice
+J,Information & Communication,61,Telecommunications,61.1,Wired Telecommunications,61.10,Wired Telecommunications Activities,Billing & Support,UsageRecord
+J,Information & Communication,61,Telecommunications,61.1,Wired Telecommunications,61.10,Wired Telecommunications Activities,Billing & Support,SupportTicket
+J,Information & Communication,61,Telecommunications,61.1,Wired Telecommunications,61.10,Wired Telecommunications Activities,Billing & Support,Refund
+J,Information & Communication,61,Telecommunications,61.1,Wired Telecommunications,61.10,Wired Telecommunications Activities,Billing & Support,CallLog
+J,Information & Communication,62,Computer Programming & IT Services,62.0,"Computer Programming, Consultancy & Related",62.01,Computer Programming Activities,Product Development,Project
+J,Information & Communication,62,Computer Programming & IT Services,62.0,"Computer Programming, Consultancy & Related",62.01,Computer Programming Activities,Product Development,Sprint
+J,Information & Communication,62,Computer Programming & IT Services,62.0,"Computer Programming, Consultancy & Related",62.01,Computer Programming Activities,Product Development,UserStory
+J,Information & Communication,62,Computer Programming & IT Services,62.0,"Computer Programming, Consultancy & Related",62.01,Computer Programming Activities,Product Development,Bug
+J,Information & Communication,62,Computer Programming & IT Services,62.0,"Computer Programming, Consultancy & Related",62.01,Computer Programming Activities,Product Development,Release
+J,Information & Communication,62,Computer Programming & IT Services,62.0,"Computer Programming, Consultancy & Related",62.01,Computer Programming Activities,Engineering Team,Developer
+J,Information & Communication,62,Computer Programming & IT Services,62.0,"Computer Programming, Consultancy & Related",62.01,Computer Programming Activities,Engineering Team,CodeRepository
+J,Information & Communication,62,Computer Programming & IT Services,62.0,"Computer Programming, Consultancy & Related",62.01,Computer Programming Activities,Engineering Team,PullRequest
+J,Information & Communication,62,Computer Programming & IT Services,62.0,"Computer Programming, Consultancy & Related",62.01,Computer Programming Activities,Engineering Team,CodeReview
+J,Information & Communication,62,Computer Programming & IT Services,62.0,"Computer Programming, Consultancy & Related",62.01,Computer Programming Activities,Engineering Team,Deployment
+J,Information & Communication,62,Computer Programming & IT Services,62.0,"Computer Programming, Consultancy & Related",62.01,Computer Programming Activities,Client & Contracts,Client
+J,Information & Communication,62,Computer Programming & IT Services,62.0,"Computer Programming, Consultancy & Related",62.01,Computer Programming Activities,Client & Contracts,Contract
+J,Information & Communication,62,Computer Programming & IT Services,62.0,"Computer Programming, Consultancy & Related",62.01,Computer Programming Activities,Client & Contracts,Milestone
+J,Information & Communication,62,Computer Programming & IT Services,62.0,"Computer Programming, Consultancy & Related",62.01,Computer Programming Activities,Client & Contracts,Invoice
+J,Information & Communication,62,Computer Programming & IT Services,62.0,"Computer Programming, Consultancy & Related",62.01,Computer Programming Activities,Client & Contracts,SLA
+J,Information & Communication,63,Information Service Activities,63.1,Data Processing & Web Portals,63.11,"Data Processing, Hosting & Related Activities",Data Centre Operations,Server
+J,Information & Communication,63,Information Service Activities,63.1,Data Processing & Web Portals,63.11,"Data Processing, Hosting & Related Activities",Data Centre Operations,RackSlot
+J,Information & Communication,63,Information Service Activities,63.1,Data Processing & Web Portals,63.11,"Data Processing, Hosting & Related Activities",Data Centre Operations,Uptime
+J,Information & Communication,63,Information Service Activities,63.1,Data Processing & Web Portals,63.11,"Data Processing, Hosting & Related Activities",Data Centre Operations,CoolingUnit
+J,Information & Communication,63,Information Service Activities,63.1,Data Processing & Web Portals,63.11,"Data Processing, Hosting & Related Activities",Data Centre Operations,EnergyUsage
+J,Information & Communication,63,Information Service Activities,63.1,Data Processing & Web Portals,63.11,"Data Processing, Hosting & Related Activities",Client Services,Client
+J,Information & Communication,63,Information Service Activities,63.1,Data Processing & Web Portals,63.11,"Data Processing, Hosting & Related Activities",Client Services,ServicePlan
+J,Information & Communication,63,Information Service Activities,63.1,Data Processing & Web Portals,63.11,"Data Processing, Hosting & Related Activities",Client Services,StorageQuota
+J,Information & Communication,63,Information Service Activities,63.1,Data Processing & Web Portals,63.11,"Data Processing, Hosting & Related Activities",Client Services,Backup
+J,Information & Communication,63,Information Service Activities,63.1,Data Processing & Web Portals,63.11,"Data Processing, Hosting & Related Activities",Client Services,SupportTicket
+J,Information & Communication,63,Information Service Activities,63.1,Data Processing & Web Portals,63.11,"Data Processing, Hosting & Related Activities",Security & Compliance,AccessLog
+J,Information & Communication,63,Information Service Activities,63.1,Data Processing & Web Portals,63.11,"Data Processing, Hosting & Related Activities",Security & Compliance,SecurityIncident
+J,Information & Communication,63,Information Service Activities,63.1,Data Processing & Web Portals,63.11,"Data Processing, Hosting & Related Activities",Security & Compliance,Audit
+J,Information & Communication,63,Information Service Activities,63.1,Data Processing & Web Portals,63.11,"Data Processing, Hosting & Related Activities",Security & Compliance,Certificate
+J,Information & Communication,63,Information Service Activities,63.1,Data Processing & Web Portals,63.11,"Data Processing, Hosting & Related Activities",Security & Compliance,DataRetentionPolicy
+K,Financial & Insurance Activities,64,Financial Service Activities,64.1,Monetary Intermediation,64.19,Other Monetary Intermediation (Retail Banks),Customer & Accounts,Customer
+K,Financial & Insurance Activities,64,Financial Service Activities,64.1,Monetary Intermediation,64.19,Other Monetary Intermediation (Retail Banks),Customer & Accounts,Account
+K,Financial & Insurance Activities,64,Financial Service Activities,64.1,Monetary Intermediation,64.19,Other Monetary Intermediation (Retail Banks),Customer & Accounts,AccountType
+K,Financial & Insurance Activities,64,Financial Service Activities,64.1,Monetary Intermediation,64.19,Other Monetary Intermediation (Retail Banks),Customer & Accounts,Branch
+K,Financial & Insurance Activities,64,Financial Service Activities,64.1,Monetary Intermediation,64.19,Other Monetary Intermediation (Retail Banks),Customer & Accounts,KYCRecord
+K,Financial & Insurance Activities,64,Financial Service Activities,64.1,Monetary Intermediation,64.19,Other Monetary Intermediation (Retail Banks),Transactions & Payments,Transaction
+K,Financial & Insurance Activities,64,Financial Service Activities,64.1,Monetary Intermediation,64.19,Other Monetary Intermediation (Retail Banks),Transactions & Payments,Transfer
+K,Financial & Insurance Activities,64,Financial Service Activities,64.1,Monetary Intermediation,64.19,Other Monetary Intermediation (Retail Banks),Transactions & Payments,Card
+K,Financial & Insurance Activities,64,Financial Service Activities,64.1,Monetary Intermediation,64.19,Other Monetary Intermediation (Retail Banks),Transactions & Payments,DirectDebit
+K,Financial & Insurance Activities,64,Financial Service Activities,64.1,Monetary Intermediation,64.19,Other Monetary Intermediation (Retail Banks),Transactions & Payments,ExchangeRate
+K,Financial & Insurance Activities,64,Financial Service Activities,64.1,Monetary Intermediation,64.19,Other Monetary Intermediation (Retail Banks),Loans & Credit,LoanApplication
+K,Financial & Insurance Activities,64,Financial Service Activities,64.1,Monetary Intermediation,64.19,Other Monetary Intermediation (Retail Banks),Loans & Credit,Loan
+K,Financial & Insurance Activities,64,Financial Service Activities,64.1,Monetary Intermediation,64.19,Other Monetary Intermediation (Retail Banks),Loans & Credit,Collateral
+K,Financial & Insurance Activities,64,Financial Service Activities,64.1,Monetary Intermediation,64.19,Other Monetary Intermediation (Retail Banks),Loans & Credit,Repayment
+K,Financial & Insurance Activities,64,Financial Service Activities,64.1,Monetary Intermediation,64.19,Other Monetary Intermediation (Retail Banks),Loans & Credit,CreditScore
+K,Financial & Insurance Activities,64,Financial Service Activities,64.1,Monetary Intermediation,64.19,Other Monetary Intermediation (Retail Banks),Compliance & Risk,AMLFlag
+K,Financial & Insurance Activities,64,Financial Service Activities,64.1,Monetary Intermediation,64.19,Other Monetary Intermediation (Retail Banks),Compliance & Risk,RegulatoryReport
+K,Financial & Insurance Activities,64,Financial Service Activities,64.1,Monetary Intermediation,64.19,Other Monetary Intermediation (Retail Banks),Compliance & Risk,FraudAlert
+K,Financial & Insurance Activities,64,Financial Service Activities,64.1,Monetary Intermediation,64.19,Other Monetary Intermediation (Retail Banks),Compliance & Risk,AuditLog
+K,Financial & Insurance Activities,64,Financial Service Activities,64.1,Monetary Intermediation,64.19,Other Monetary Intermediation (Retail Banks),Compliance & Risk,RiskRating
+K,Financial & Insurance Activities,66,Activities Auxiliary to Financial Services,66.1,Activities Auxiliary to Financial Services,66.11,Administration of Financial Markets,Market Operations,Security
+K,Financial & Insurance Activities,66,Activities Auxiliary to Financial Services,66.1,Activities Auxiliary to Financial Services,66.11,Administration of Financial Markets,Market Operations,Trade
+K,Financial & Insurance Activities,66,Activities Auxiliary to Financial Services,66.1,Activities Auxiliary to Financial Services,66.11,Administration of Financial Markets,Market Operations,OrderBook
+K,Financial & Insurance Activities,66,Activities Auxiliary to Financial Services,66.1,Activities Auxiliary to Financial Services,66.11,Administration of Financial Markets,Market Operations,MarketMaker
+K,Financial & Insurance Activities,66,Activities Auxiliary to Financial Services,66.1,Activities Auxiliary to Financial Services,66.11,Administration of Financial Markets,Market Operations,PriceRecord
+K,Financial & Insurance Activities,66,Activities Auxiliary to Financial Services,66.1,Activities Auxiliary to Financial Services,66.11,Administration of Financial Markets,Clearing & Settlement,TradeConfirmation
+K,Financial & Insurance Activities,66,Activities Auxiliary to Financial Services,66.1,Activities Auxiliary to Financial Services,66.11,Administration of Financial Markets,Clearing & Settlement,ClearingHouse
+K,Financial & Insurance Activities,66,Activities Auxiliary to Financial Services,66.1,Activities Auxiliary to Financial Services,66.11,Administration of Financial Markets,Clearing & Settlement,Settlement
+K,Financial & Insurance Activities,66,Activities Auxiliary to Financial Services,66.1,Activities Auxiliary to Financial Services,66.11,Administration of Financial Markets,Clearing & Settlement,PositionRecord
+K,Financial & Insurance Activities,66,Activities Auxiliary to Financial Services,66.1,Activities Auxiliary to Financial Services,66.11,Administration of Financial Markets,Clearing & Settlement,Margin
+L,Real Estate Activities,68,Real Estate Activities,68.2,Renting & Operating of Own or Leased Real Estate,68.20,Renting & Operating of Own or Leased Real Estate,Property Portfolio,Property
+L,Real Estate Activities,68,Real Estate Activities,68.2,Renting & Operating of Own or Leased Real Estate,68.20,Renting & Operating of Own or Leased Real Estate,Property Portfolio,Unit
+L,Real Estate Activities,68,Real Estate Activities,68.2,Renting & Operating of Own or Leased Real Estate,68.20,Renting & Operating of Own or Leased Real Estate,Property Portfolio,FloorPlan
+L,Real Estate Activities,68,Real Estate Activities,68.2,Renting & Operating of Own or Leased Real Estate,68.20,Renting & Operating of Own or Leased Real Estate,Property Portfolio,Valuation
+L,Real Estate Activities,68,Real Estate Activities,68.2,Renting & Operating of Own or Leased Real Estate,68.20,Renting & Operating of Own or Leased Real Estate,Property Portfolio,OwnershipRecord
+L,Real Estate Activities,68,Real Estate Activities,68.2,Renting & Operating of Own or Leased Real Estate,68.20,Renting & Operating of Own or Leased Real Estate,Tenant Management,Tenant
+L,Real Estate Activities,68,Real Estate Activities,68.2,Renting & Operating of Own or Leased Real Estate,68.20,Renting & Operating of Own or Leased Real Estate,Tenant Management,LeaseContract
+L,Real Estate Activities,68,Real Estate Activities,68.2,Renting & Operating of Own or Leased Real Estate,68.20,Renting & Operating of Own or Leased Real Estate,Tenant Management,Deposit
+L,Real Estate Activities,68,Real Estate Activities,68.2,Renting & Operating of Own or Leased Real Estate,68.20,Renting & Operating of Own or Leased Real Estate,Tenant Management,RentPayment
+L,Real Estate Activities,68,Real Estate Activities,68.2,Renting & Operating of Own or Leased Real Estate,68.20,Renting & Operating of Own or Leased Real Estate,Tenant Management,Complaint
+L,Real Estate Activities,68,Real Estate Activities,68.2,Renting & Operating of Own or Leased Real Estate,68.20,Renting & Operating of Own or Leased Real Estate,Maintenance,MaintenanceRequest
+L,Real Estate Activities,68,Real Estate Activities,68.2,Renting & Operating of Own or Leased Real Estate,68.20,Renting & Operating of Own or Leased Real Estate,Maintenance,Contractor
+L,Real Estate Activities,68,Real Estate Activities,68.2,Renting & Operating of Own or Leased Real Estate,68.20,Renting & Operating of Own or Leased Real Estate,Maintenance,Inspection
+L,Real Estate Activities,68,Real Estate Activities,68.2,Renting & Operating of Own or Leased Real Estate,68.20,Renting & Operating of Own or Leased Real Estate,Maintenance,RepairOrder
+L,Real Estate Activities,68,Real Estate Activities,68.2,Renting & Operating of Own or Leased Real Estate,68.20,Renting & Operating of Own or Leased Real Estate,Maintenance,CostRecord
+M,"Professional, Scientific & Technical Activities",69,Legal & Accounting Activities,69.1,Legal Activities,69.10,Legal Activities,Case Management,Case
+M,"Professional, Scientific & Technical Activities",69,Legal & Accounting Activities,69.1,Legal Activities,69.10,Legal Activities,Case Management,Client
+M,"Professional, Scientific & Technical Activities",69,Legal & Accounting Activities,69.1,Legal Activities,69.10,Legal Activities,Case Management,Attorney
+M,"Professional, Scientific & Technical Activities",69,Legal & Accounting Activities,69.1,Legal Activities,69.10,Legal Activities,Case Management,Hearing
+M,"Professional, Scientific & Technical Activities",69,Legal & Accounting Activities,69.1,Legal Activities,69.10,Legal Activities,Case Management,LegalDocument
+M,"Professional, Scientific & Technical Activities",69,Legal & Accounting Activities,69.1,Legal Activities,69.10,Legal Activities,Billing & Finance,TimeEntry
+M,"Professional, Scientific & Technical Activities",69,Legal & Accounting Activities,69.1,Legal Activities,69.10,Legal Activities,Billing & Finance,Invoice
+M,"Professional, Scientific & Technical Activities",69,Legal & Accounting Activities,69.1,Legal Activities,69.10,Legal Activities,Billing & Finance,Retainer
+M,"Professional, Scientific & Technical Activities",69,Legal & Accounting Activities,69.1,Legal Activities,69.10,Legal Activities,Billing & Finance,Expense
+M,"Professional, Scientific & Technical Activities",69,Legal & Accounting Activities,69.1,Legal Activities,69.10,Legal Activities,Billing & Finance,Payment
+M,"Professional, Scientific & Technical Activities",72,Scientific Research & Development,72.1,Research & Experimental Development in Natural Sciences,72.11,R&D in Biotechnology,Research Projects,Project
+M,"Professional, Scientific & Technical Activities",72,Scientific Research & Development,72.1,Research & Experimental Development in Natural Sciences,72.11,R&D in Biotechnology,Research Projects,Researcher
+M,"Professional, Scientific & Technical Activities",72,Scientific Research & Development,72.1,Research & Experimental Development in Natural Sciences,72.11,R&D in Biotechnology,Research Projects,Experiment
+M,"Professional, Scientific & Technical Activities",72,Scientific Research & Development,72.1,Research & Experimental Development in Natural Sciences,72.11,R&D in Biotechnology,Research Projects,Protocol
+M,"Professional, Scientific & Technical Activities",72,Scientific Research & Development,72.1,Research & Experimental Development in Natural Sciences,72.11,R&D in Biotechnology,Research Projects,Finding
+M,"Professional, Scientific & Technical Activities",72,Scientific Research & Development,72.1,Research & Experimental Development in Natural Sciences,72.11,R&D in Biotechnology,Laboratory,Sample
+M,"Professional, Scientific & Technical Activities",72,Scientific Research & Development,72.1,Research & Experimental Development in Natural Sciences,72.11,R&D in Biotechnology,Laboratory,Reagent
+M,"Professional, Scientific & Technical Activities",72,Scientific Research & Development,72.1,Research & Experimental Development in Natural Sciences,72.11,R&D in Biotechnology,Laboratory,Equipment
+M,"Professional, Scientific & Technical Activities",72,Scientific Research & Development,72.1,Research & Experimental Development in Natural Sciences,72.11,R&D in Biotechnology,Laboratory,TestResult
+M,"Professional, Scientific & Technical Activities",72,Scientific Research & Development,72.1,Research & Experimental Development in Natural Sciences,72.11,R&D in Biotechnology,Laboratory,SafetyLog
+M,"Professional, Scientific & Technical Activities",72,Scientific Research & Development,72.1,Research & Experimental Development in Natural Sciences,72.11,R&D in Biotechnology,Funding & IP,Grant
+M,"Professional, Scientific & Technical Activities",72,Scientific Research & Development,72.1,Research & Experimental Development in Natural Sciences,72.11,R&D in Biotechnology,Funding & IP,Budget
+M,"Professional, Scientific & Technical Activities",72,Scientific Research & Development,72.1,Research & Experimental Development in Natural Sciences,72.11,R&D in Biotechnology,Funding & IP,Publication
+M,"Professional, Scientific & Technical Activities",72,Scientific Research & Development,72.1,Research & Experimental Development in Natural Sciences,72.11,R&D in Biotechnology,Funding & IP,Patent
+M,"Professional, Scientific & Technical Activities",72,Scientific Research & Development,72.1,Research & Experimental Development in Natural Sciences,72.11,R&D in Biotechnology,Funding & IP,Collaborator
+M,"Professional, Scientific & Technical Activities",73,Advertising & Market Research,73.1,Advertising,73.11,Advertising Agencies,Campaign Management,Campaign
+M,"Professional, Scientific & Technical Activities",73,Advertising & Market Research,73.1,Advertising,73.11,Advertising Agencies,Campaign Management,Client
+M,"Professional, Scientific & Technical Activities",73,Advertising & Market Research,73.1,Advertising,73.11,Advertising Agencies,Campaign Management,Brief
+M,"Professional, Scientific & Technical Activities",73,Advertising & Market Research,73.1,Advertising,73.11,Advertising Agencies,Campaign Management,Creative
+M,"Professional, Scientific & Technical Activities",73,Advertising & Market Research,73.1,Advertising,73.11,Advertising Agencies,Campaign Management,MediaChannel
+M,"Professional, Scientific & Technical Activities",73,Advertising & Market Research,73.1,Advertising,73.11,Advertising Agencies,Performance & Analytics,Impression
+M,"Professional, Scientific & Technical Activities",73,Advertising & Market Research,73.1,Advertising,73.11,Advertising Agencies,Performance & Analytics,Click
+M,"Professional, Scientific & Technical Activities",73,Advertising & Market Research,73.1,Advertising,73.11,Advertising Agencies,Performance & Analytics,Conversion
+M,"Professional, Scientific & Technical Activities",73,Advertising & Market Research,73.1,Advertising,73.11,Advertising Agencies,Performance & Analytics,ABTest
+M,"Professional, Scientific & Technical Activities",73,Advertising & Market Research,73.1,Advertising,73.11,Advertising Agencies,Performance & Analytics,Report
+M,"Professional, Scientific & Technical Activities",73,Advertising & Market Research,73.1,Advertising,73.11,Advertising Agencies,Billing,Invoice
+M,"Professional, Scientific & Technical Activities",73,Advertising & Market Research,73.1,Advertising,73.11,Advertising Agencies,Billing,MediaBuy
+M,"Professional, Scientific & Technical Activities",73,Advertising & Market Research,73.1,Advertising,73.11,Advertising Agencies,Billing,Commission
+M,"Professional, Scientific & Technical Activities",73,Advertising & Market Research,73.1,Advertising,73.11,Advertising Agencies,Billing,Contract
+M,"Professional, Scientific & Technical Activities",73,Advertising & Market Research,73.1,Advertising,73.11,Advertising Agencies,Billing,Estimate
+N,Administrative & Support Service Activities,78,Employment Activities,78.1,Activities of Employment Placement Agencies,78.10,Activities of Employment Placement Agencies,Recruitment,JobPosting
+N,Administrative & Support Service Activities,78,Employment Activities,78.1,Activities of Employment Placement Agencies,78.10,Activities of Employment Placement Agencies,Recruitment,Candidate
+N,Administrative & Support Service Activities,78,Employment Activities,78.1,Activities of Employment Placement Agencies,78.10,Activities of Employment Placement Agencies,Recruitment,Application
+N,Administrative & Support Service Activities,78,Employment Activities,78.1,Activities of Employment Placement Agencies,78.10,Activities of Employment Placement Agencies,Recruitment,Interview
+N,Administrative & Support Service Activities,78,Employment Activities,78.1,Activities of Employment Placement Agencies,78.10,Activities of Employment Placement Agencies,Recruitment,Placement
+N,Administrative & Support Service Activities,78,Employment Activities,78.1,Activities of Employment Placement Agencies,78.10,Activities of Employment Placement Agencies,Client & Billing,ClientCompany
+N,Administrative & Support Service Activities,78,Employment Activities,78.1,Activities of Employment Placement Agencies,78.10,Activities of Employment Placement Agencies,Client & Billing,Contract
+N,Administrative & Support Service Activities,78,Employment Activities,78.1,Activities of Employment Placement Agencies,78.10,Activities of Employment Placement Agencies,Client & Billing,Invoice
+N,Administrative & Support Service Activities,78,Employment Activities,78.1,Activities of Employment Placement Agencies,78.10,Activities of Employment Placement Agencies,Client & Billing,Commission
+N,Administrative & Support Service Activities,78,Employment Activities,78.1,Activities of Employment Placement Agencies,78.10,Activities of Employment Placement Agencies,Client & Billing,SLA
+N,Administrative & Support Service Activities,82,Office Administration & Business Support,82.1,Office Administrative & Support Activities,82.11,Combined Office Administrative Service Activities,Operations,ServiceRequest
+N,Administrative & Support Service Activities,82,Office Administration & Business Support,82.1,Office Administrative & Support Activities,82.11,Combined Office Administrative Service Activities,Operations,Staff
+N,Administrative & Support Service Activities,82,Office Administration & Business Support,82.1,Office Administrative & Support Activities,82.11,Combined Office Administrative Service Activities,Operations,Schedule
+N,Administrative & Support Service Activities,82,Office Administration & Business Support,82.1,Office Administrative & Support Activities,82.11,Combined Office Administrative Service Activities,Operations,Document
+N,Administrative & Support Service Activities,82,Office Administration & Business Support,82.1,Office Administrative & Support Activities,82.11,Combined Office Administrative Service Activities,Operations,Task
+N,Administrative & Support Service Activities,82,Office Administration & Business Support,82.1,Office Administrative & Support Activities,82.11,Combined Office Administrative Service Activities,Client Management,Client
+N,Administrative & Support Service Activities,82,Office Administration & Business Support,82.1,Office Administrative & Support Activities,82.11,Combined Office Administrative Service Activities,Client Management,ServiceContract
+N,Administrative & Support Service Activities,82,Office Administration & Business Support,82.1,Office Administrative & Support Activities,82.11,Combined Office Administrative Service Activities,Client Management,SLA
+N,Administrative & Support Service Activities,82,Office Administration & Business Support,82.1,Office Administrative & Support Activities,82.11,Combined Office Administrative Service Activities,Client Management,Invoice
+N,Administrative & Support Service Activities,82,Office Administration & Business Support,82.1,Office Administrative & Support Activities,82.11,Combined Office Administrative Service Activities,Client Management,FeedbackRecord
+O,Public Administration & Defence,84,Public Administration & Defence; Compulsory Social Security,84.1,Administration of the State & Economic Policy,84.11,General Public Administration,Citizen Services,Citizen
+O,Public Administration & Defence,84,Public Administration & Defence; Compulsory Social Security,84.1,Administration of the State & Economic Policy,84.11,General Public Administration,Citizen Services,ApplicationForm
+O,Public Administration & Defence,84,Public Administration & Defence; Compulsory Social Security,84.1,Administration of the State & Economic Policy,84.11,General Public Administration,Citizen Services,Permit
+O,Public Administration & Defence,84,Public Administration & Defence; Compulsory Social Security,84.1,Administration of the State & Economic Policy,84.11,General Public Administration,Citizen Services,ServiceRequest
+O,Public Administration & Defence,84,Public Administration & Defence; Compulsory Social Security,84.1,Administration of the State & Economic Policy,84.11,General Public Administration,Citizen Services,Document
+O,Public Administration & Defence,84,Public Administration & Defence; Compulsory Social Security,84.1,Administration of the State & Economic Policy,84.11,General Public Administration,HR & Payroll,Employee
+O,Public Administration & Defence,84,Public Administration & Defence; Compulsory Social Security,84.1,Administration of the State & Economic Policy,84.11,General Public Administration,HR & Payroll,Department
+O,Public Administration & Defence,84,Public Administration & Defence; Compulsory Social Security,84.1,Administration of the State & Economic Policy,84.11,General Public Administration,HR & Payroll,Position
+O,Public Administration & Defence,84,Public Administration & Defence; Compulsory Social Security,84.1,Administration of the State & Economic Policy,84.11,General Public Administration,HR & Payroll,Payroll
+O,Public Administration & Defence,84,Public Administration & Defence; Compulsory Social Security,84.1,Administration of the State & Economic Policy,84.11,General Public Administration,HR & Payroll,LeaveRecord
+O,Public Administration & Defence,84,Public Administration & Defence; Compulsory Social Security,84.1,Administration of the State & Economic Policy,84.11,General Public Administration,Budget & Finance,Budget
+O,Public Administration & Defence,84,Public Administration & Defence; Compulsory Social Security,84.1,Administration of the State & Economic Policy,84.11,General Public Administration,Budget & Finance,Expenditure
+O,Public Administration & Defence,84,Public Administration & Defence; Compulsory Social Security,84.1,Administration of the State & Economic Policy,84.11,General Public Administration,Budget & Finance,Procurement
+O,Public Administration & Defence,84,Public Administration & Defence; Compulsory Social Security,84.1,Administration of the State & Economic Policy,84.11,General Public Administration,Budget & Finance,Vendor
+O,Public Administration & Defence,84,Public Administration & Defence; Compulsory Social Security,84.1,Administration of the State & Economic Policy,84.11,General Public Administration,Budget & Finance,Audit
+P,Education,85,Education,85.1,Pre-Primary Education,85.10,Pre-Primary Education,Classroom & Pupils,Pupil
+P,Education,85,Education,85.1,Pre-Primary Education,85.10,Pre-Primary Education,Classroom & Pupils,Group
+P,Education,85,Education,85.1,Pre-Primary Education,85.10,Pre-Primary Education,Classroom & Pupils,Teacher
+P,Education,85,Education,85.1,Pre-Primary Education,85.10,Pre-Primary Education,Classroom & Pupils,AttendanceRecord
+P,Education,85,Education,85.1,Pre-Primary Education,85.10,Pre-Primary Education,Classroom & Pupils,ActivityLog
+P,Education,85,Education,85.1,Pre-Primary Education,85.10,Pre-Primary Education,Administration,Parent
+P,Education,85,Education,85.1,Pre-Primary Education,85.10,Pre-Primary Education,Administration,Enrollment
+P,Education,85,Education,85.1,Pre-Primary Education,85.10,Pre-Primary Education,Administration,FeePayment
+P,Education,85,Education,85.1,Pre-Primary Education,85.10,Pre-Primary Education,Administration,HealthRecord
+P,Education,85,Education,85.1,Pre-Primary Education,85.10,Pre-Primary Education,Administration,Incident
+P,Education,85,Education,85.4,Higher Education,85.42,Post-Secondary Non-Tertiary Education & University,Academic Structure,University
+P,Education,85,Education,85.4,Higher Education,85.42,Post-Secondary Non-Tertiary Education & University,Academic Structure,Faculty
+P,Education,85,Education,85.4,Higher Education,85.42,Post-Secondary Non-Tertiary Education & University,Academic Structure,Department
+P,Education,85,Education,85.4,Higher Education,85.42,Post-Secondary Non-Tertiary Education & University,Academic Structure,Programme
+P,Education,85,Education,85.4,Higher Education,85.42,Post-Secondary Non-Tertiary Education & University,Academic Structure,Course
+P,Education,85,Education,85.4,Higher Education,85.42,Post-Secondary Non-Tertiary Education & University,Students & Enrollment,Student
+P,Education,85,Education,85.4,Higher Education,85.42,Post-Secondary Non-Tertiary Education & University,Students & Enrollment,Enrollment
+P,Education,85,Education,85.4,Higher Education,85.42,Post-Secondary Non-Tertiary Education & University,Students & Enrollment,AcademicRecord
+P,Education,85,Education,85.4,Higher Education,85.42,Post-Secondary Non-Tertiary Education & University,Students & Enrollment,Scholarship
+P,Education,85,Education,85.4,Higher Education,85.42,Post-Secondary Non-Tertiary Education & University,Students & Enrollment,Advisor
+P,Education,85,Education,85.4,Higher Education,85.42,Post-Secondary Non-Tertiary Education & University,Teaching & Curriculum,Instructor
+P,Education,85,Education,85.4,Higher Education,85.42,Post-Secondary Non-Tertiary Education & University,Teaching & Curriculum,CourseSection
+P,Education,85,Education,85.4,Higher Education,85.42,Post-Secondary Non-Tertiary Education & University,Teaching & Curriculum,Timetable
+P,Education,85,Education,85.4,Higher Education,85.42,Post-Secondary Non-Tertiary Education & University,Teaching & Curriculum,LearningOutcome
+P,Education,85,Education,85.4,Higher Education,85.42,Post-Secondary Non-Tertiary Education & University,Teaching & Curriculum,Material
+P,Education,85,Education,85.4,Higher Education,85.42,Post-Secondary Non-Tertiary Education & University,Examinations,Exam
+P,Education,85,Education,85.4,Higher Education,85.42,Post-Secondary Non-Tertiary Education & University,Examinations,ExamSchedule
+P,Education,85,Education,85.4,Higher Education,85.42,Post-Secondary Non-Tertiary Education & University,Examinations,ExamRoom
+P,Education,85,Education,85.4,Higher Education,85.42,Post-Secondary Non-Tertiary Education & University,Examinations,Grade
+P,Education,85,Education,85.4,Higher Education,85.42,Post-Secondary Non-Tertiary Education & University,Examinations,Retake
+P,Education,85,Education,85.4,Higher Education,85.42,Post-Secondary Non-Tertiary Education & University,Research,ResearchProject
+P,Education,85,Education,85.4,Higher Education,85.42,Post-Secondary Non-Tertiary Education & University,Research,Grant
+P,Education,85,Education,85.4,Higher Education,85.42,Post-Secondary Non-Tertiary Education & University,Research,Publication
+P,Education,85,Education,85.4,Higher Education,85.42,Post-Secondary Non-Tertiary Education & University,Research,Thesis
+P,Education,85,Education,85.4,Higher Education,85.42,Post-Secondary Non-Tertiary Education & University,Research,Supervisor
+P,Education,85,Education,85.4,Higher Education,85.42,Post-Secondary Non-Tertiary Education & University,Human Resources,Staff
+P,Education,85,Education,85.4,Higher Education,85.42,Post-Secondary Non-Tertiary Education & University,Human Resources,Contract
+P,Education,85,Education,85.4,Higher Education,85.42,Post-Secondary Non-Tertiary Education & University,Human Resources,Payroll
+P,Education,85,Education,85.4,Higher Education,85.42,Post-Secondary Non-Tertiary Education & University,Human Resources,LeaveRequest
+P,Education,85,Education,85.4,Higher Education,85.42,Post-Secondary Non-Tertiary Education & University,Human Resources,PerformanceReview
+P,Education,85,Education,85.4,Higher Education,85.42,Post-Secondary Non-Tertiary Education & University,Finance & Fees,TuitionFee
+P,Education,85,Education,85.4,Higher Education,85.42,Post-Secondary Non-Tertiary Education & University,Finance & Fees,Payment
+P,Education,85,Education,85.4,Higher Education,85.42,Post-Secondary Non-Tertiary Education & University,Finance & Fees,Invoice
+P,Education,85,Education,85.4,Higher Education,85.42,Post-Secondary Non-Tertiary Education & University,Finance & Fees,Scholarship
+P,Education,85,Education,85.4,Higher Education,85.42,Post-Secondary Non-Tertiary Education & University,Finance & Fees,BudgetAllocation
+P,Education,85,Education,85.4,Higher Education,85.42,Post-Secondary Non-Tertiary Education & University,Campus & Facilities,Building
+P,Education,85,Education,85.4,Higher Education,85.42,Post-Secondary Non-Tertiary Education & University,Campus & Facilities,Room
+P,Education,85,Education,85.4,Higher Education,85.42,Post-Secondary Non-Tertiary Education & University,Campus & Facilities,Booking
+P,Education,85,Education,85.4,Higher Education,85.42,Post-Secondary Non-Tertiary Education & University,Campus & Facilities,Equipment
+P,Education,85,Education,85.4,Higher Education,85.42,Post-Secondary Non-Tertiary Education & University,Campus & Facilities,MaintenanceRequest
+Q,Human Health & Social Work Activities,86,Human Health Activities,86.1,Hospital Activities,86.10,Hospital Activities,Patient Management,Patient
+Q,Human Health & Social Work Activities,86,Human Health Activities,86.1,Hospital Activities,86.10,Hospital Activities,Patient Management,Admission
+Q,Human Health & Social Work Activities,86,Human Health Activities,86.1,Hospital Activities,86.10,Hospital Activities,Patient Management,Ward
+Q,Human Health & Social Work Activities,86,Human Health Activities,86.1,Hospital Activities,86.10,Hospital Activities,Patient Management,Bed
+Q,Human Health & Social Work Activities,86,Human Health Activities,86.1,Hospital Activities,86.10,Hospital Activities,Patient Management,Discharge
+Q,Human Health & Social Work Activities,86,Human Health Activities,86.1,Hospital Activities,86.10,Hospital Activities,Clinical Operations,Doctor
+Q,Human Health & Social Work Activities,86,Human Health Activities,86.1,Hospital Activities,86.10,Hospital Activities,Clinical Operations,Nurse
+Q,Human Health & Social Work Activities,86,Human Health Activities,86.1,Hospital Activities,86.10,Hospital Activities,Clinical Operations,Appointment
+Q,Human Health & Social Work Activities,86,Human Health Activities,86.1,Hospital Activities,86.10,Hospital Activities,Clinical Operations,Diagnosis
+Q,Human Health & Social Work Activities,86,Human Health Activities,86.1,Hospital Activities,86.10,Hospital Activities,Clinical Operations,Treatment
+Q,Human Health & Social Work Activities,86,Human Health Activities,86.1,Hospital Activities,86.10,Hospital Activities,Clinical Operations,Prescription
+Q,Human Health & Social Work Activities,86,Human Health Activities,86.1,Hospital Activities,86.10,Hospital Activities,Laboratory & Imaging,LabTest
+Q,Human Health & Social Work Activities,86,Human Health Activities,86.1,Hospital Activities,86.10,Hospital Activities,Laboratory & Imaging,LabResult
+Q,Human Health & Social Work Activities,86,Human Health Activities,86.1,Hospital Activities,86.10,Hospital Activities,Laboratory & Imaging,ImagingStudy
+Q,Human Health & Social Work Activities,86,Human Health Activities,86.1,Hospital Activities,86.10,Hospital Activities,Laboratory & Imaging,Sample
+Q,Human Health & Social Work Activities,86,Human Health Activities,86.1,Hospital Activities,86.10,Hospital Activities,Laboratory & Imaging,Equipment
+Q,Human Health & Social Work Activities,86,Human Health Activities,86.1,Hospital Activities,86.10,Hospital Activities,Pharmacy,Medication
+Q,Human Health & Social Work Activities,86,Human Health Activities,86.1,Hospital Activities,86.10,Hospital Activities,Pharmacy,StockLevel
+Q,Human Health & Social Work Activities,86,Human Health Activities,86.1,Hospital Activities,86.10,Hospital Activities,Pharmacy,Dispensing
+Q,Human Health & Social Work Activities,86,Human Health Activities,86.1,Hospital Activities,86.10,Hospital Activities,Pharmacy,Supplier
+Q,Human Health & Social Work Activities,86,Human Health Activities,86.1,Hospital Activities,86.10,Hospital Activities,Pharmacy,ExpiryRecord
+Q,Human Health & Social Work Activities,86,Human Health Activities,86.1,Hospital Activities,86.10,Hospital Activities,Billing & Insurance,Invoice
+Q,Human Health & Social Work Activities,86,Human Health Activities,86.1,Hospital Activities,86.10,Hospital Activities,Billing & Insurance,InsuranceClaim
+Q,Human Health & Social Work Activities,86,Human Health Activities,86.1,Hospital Activities,86.10,Hospital Activities,Billing & Insurance,Payment
+Q,Human Health & Social Work Activities,86,Human Health Activities,86.1,Hospital Activities,86.10,Hospital Activities,Billing & Insurance,Tariff
+Q,Human Health & Social Work Activities,86,Human Health Activities,86.1,Hospital Activities,86.10,Hospital Activities,Billing & Insurance,Refund
+Q,Human Health & Social Work Activities,87,Residential Care Activities,87.1,Residential Nursing Care,87.10,Residential Nursing Care Activities,Resident Care,Resident
+Q,Human Health & Social Work Activities,87,Residential Care Activities,87.1,Residential Nursing Care,87.10,Residential Nursing Care Activities,Resident Care,CareAssessment
+Q,Human Health & Social Work Activities,87,Residential Care Activities,87.1,Residential Nursing Care,87.10,Residential Nursing Care Activities,Resident Care,CarePlan
+Q,Human Health & Social Work Activities,87,Residential Care Activities,87.1,Residential Nursing Care,87.10,Residential Nursing Care Activities,Resident Care,MedicationLog
+Q,Human Health & Social Work Activities,87,Residential Care Activities,87.1,Residential Nursing Care,87.10,Residential Nursing Care Activities,Resident Care,IncidentReport
+Q,Human Health & Social Work Activities,87,Residential Care Activities,87.1,Residential Nursing Care,87.10,Residential Nursing Care Activities,Staff & Scheduling,Caregiver
+Q,Human Health & Social Work Activities,87,Residential Care Activities,87.1,Residential Nursing Care,87.10,Residential Nursing Care Activities,Staff & Scheduling,ShiftRoster
+Q,Human Health & Social Work Activities,87,Residential Care Activities,87.1,Residential Nursing Care,87.10,Residential Nursing Care Activities,Staff & Scheduling,TrainingRecord
+Q,Human Health & Social Work Activities,87,Residential Care Activities,87.1,Residential Nursing Care,87.10,Residential Nursing Care Activities,Staff & Scheduling,Qualification
+Q,Human Health & Social Work Activities,87,Residential Care Activities,87.1,Residential Nursing Care,87.10,Residential Nursing Care Activities,Staff & Scheduling,Payroll
+Q,Human Health & Social Work Activities,87,Residential Care Activities,87.1,Residential Nursing Care,87.10,Residential Nursing Care Activities,Family & Billing,FamilyContact
+Q,Human Health & Social Work Activities,87,Residential Care Activities,87.1,Residential Nursing Care,87.10,Residential Nursing Care Activities,Family & Billing,Contract
+Q,Human Health & Social Work Activities,87,Residential Care Activities,87.1,Residential Nursing Care,87.10,Residential Nursing Care Activities,Family & Billing,Invoice
+Q,Human Health & Social Work Activities,87,Residential Care Activities,87.1,Residential Nursing Care,87.10,Residential Nursing Care Activities,Family & Billing,Payment
+Q,Human Health & Social Work Activities,87,Residential Care Activities,87.1,Residential Nursing Care,87.10,Residential Nursing Care Activities,Family & Billing,SocialWorker
+R,"Arts, Entertainment & Recreation",90,"Creative, Arts & Entertainment Activities",90.0,"Creative, Arts & Entertainment Activities",90.01,Performing Arts,Productions & Events,Production
+R,"Arts, Entertainment & Recreation",90,"Creative, Arts & Entertainment Activities",90.0,"Creative, Arts & Entertainment Activities",90.01,Performing Arts,Productions & Events,Venue
+R,"Arts, Entertainment & Recreation",90,"Creative, Arts & Entertainment Activities",90.0,"Creative, Arts & Entertainment Activities",90.01,Performing Arts,Productions & Events,Performance
+R,"Arts, Entertainment & Recreation",90,"Creative, Arts & Entertainment Activities",90.0,"Creative, Arts & Entertainment Activities",90.01,Performing Arts,Productions & Events,Ticket
+R,"Arts, Entertainment & Recreation",90,"Creative, Arts & Entertainment Activities",90.0,"Creative, Arts & Entertainment Activities",90.01,Performing Arts,Productions & Events,Artist
+R,"Arts, Entertainment & Recreation",90,"Creative, Arts & Entertainment Activities",90.0,"Creative, Arts & Entertainment Activities",90.01,Performing Arts,Cast & Crew,Performer
+R,"Arts, Entertainment & Recreation",90,"Creative, Arts & Entertainment Activities",90.0,"Creative, Arts & Entertainment Activities",90.01,Performing Arts,Cast & Crew,Role
+R,"Arts, Entertainment & Recreation",90,"Creative, Arts & Entertainment Activities",90.0,"Creative, Arts & Entertainment Activities",90.01,Performing Arts,Cast & Crew,Rehearsal
+R,"Arts, Entertainment & Recreation",90,"Creative, Arts & Entertainment Activities",90.0,"Creative, Arts & Entertainment Activities",90.01,Performing Arts,Cast & Crew,Contract
+R,"Arts, Entertainment & Recreation",90,"Creative, Arts & Entertainment Activities",90.0,"Creative, Arts & Entertainment Activities",90.01,Performing Arts,Cast & Crew,Costume
+R,"Arts, Entertainment & Recreation",90,"Creative, Arts & Entertainment Activities",90.0,"Creative, Arts & Entertainment Activities",90.01,Performing Arts,Revenue,TicketSale
+R,"Arts, Entertainment & Recreation",90,"Creative, Arts & Entertainment Activities",90.0,"Creative, Arts & Entertainment Activities",90.01,Performing Arts,Revenue,Sponsorship
+R,"Arts, Entertainment & Recreation",90,"Creative, Arts & Entertainment Activities",90.0,"Creative, Arts & Entertainment Activities",90.01,Performing Arts,Revenue,Merchandise
+R,"Arts, Entertainment & Recreation",90,"Creative, Arts & Entertainment Activities",90.0,"Creative, Arts & Entertainment Activities",90.01,Performing Arts,Revenue,Invoice
+R,"Arts, Entertainment & Recreation",90,"Creative, Arts & Entertainment Activities",90.0,"Creative, Arts & Entertainment Activities",90.01,Performing Arts,Revenue,Expense
+R,"Arts, Entertainment & Recreation",93,Sports Activities & Amusement & Recreation,93.1,Sports Activities,93.12,Activities of Sports Clubs,Club Operations,Club
+R,"Arts, Entertainment & Recreation",93,Sports Activities & Amusement & Recreation,93.1,Sports Activities,93.12,Activities of Sports Clubs,Club Operations,Member
+R,"Arts, Entertainment & Recreation",93,Sports Activities & Amusement & Recreation,93.1,Sports Activities,93.12,Activities of Sports Clubs,Club Operations,Membership
+R,"Arts, Entertainment & Recreation",93,Sports Activities & Amusement & Recreation,93.1,Sports Activities,93.12,Activities of Sports Clubs,Club Operations,Facility
+R,"Arts, Entertainment & Recreation",93,Sports Activities & Amusement & Recreation,93.1,Sports Activities,93.12,Activities of Sports Clubs,Club Operations,Staff
+R,"Arts, Entertainment & Recreation",93,Sports Activities & Amusement & Recreation,93.1,Sports Activities,93.12,Activities of Sports Clubs,Teams & Competitions,Team
+R,"Arts, Entertainment & Recreation",93,Sports Activities & Amusement & Recreation,93.1,Sports Activities,93.12,Activities of Sports Clubs,Teams & Competitions,Player
+R,"Arts, Entertainment & Recreation",93,Sports Activities & Amusement & Recreation,93.1,Sports Activities,93.12,Activities of Sports Clubs,Teams & Competitions,Match
+R,"Arts, Entertainment & Recreation",93,Sports Activities & Amusement & Recreation,93.1,Sports Activities,93.12,Activities of Sports Clubs,Teams & Competitions,Season
+R,"Arts, Entertainment & Recreation",93,Sports Activities & Amusement & Recreation,93.1,Sports Activities,93.12,Activities of Sports Clubs,Teams & Competitions,Standing
+R,"Arts, Entertainment & Recreation",93,Sports Activities & Amusement & Recreation,93.1,Sports Activities,93.12,Activities of Sports Clubs,Teams & Competitions,Result
+R,"Arts, Entertainment & Recreation",93,Sports Activities & Amusement & Recreation,93.1,Sports Activities,93.12,Activities of Sports Clubs,Training,TrainingSession
+R,"Arts, Entertainment & Recreation",93,Sports Activities & Amusement & Recreation,93.1,Sports Activities,93.12,Activities of Sports Clubs,Training,Coach
+R,"Arts, Entertainment & Recreation",93,Sports Activities & Amusement & Recreation,93.1,Sports Activities,93.12,Activities of Sports Clubs,Training,PerformanceRecord
+R,"Arts, Entertainment & Recreation",93,Sports Activities & Amusement & Recreation,93.1,Sports Activities,93.12,Activities of Sports Clubs,Training,InjuryReport
+R,"Arts, Entertainment & Recreation",93,Sports Activities & Amusement & Recreation,93.1,Sports Activities,93.12,Activities of Sports Clubs,Training,DrillPlan
+R,"Arts, Entertainment & Recreation",93,Sports Activities & Amusement & Recreation,93.1,Sports Activities,93.12,Activities of Sports Clubs,Revenue & Sponsors,Sponsor
+R,"Arts, Entertainment & Recreation",93,Sports Activities & Amusement & Recreation,93.1,Sports Activities,93.12,Activities of Sports Clubs,Revenue & Sponsors,Contract
+R,"Arts, Entertainment & Recreation",93,Sports Activities & Amusement & Recreation,93.1,Sports Activities,93.12,Activities of Sports Clubs,Revenue & Sponsors,Ticket
+R,"Arts, Entertainment & Recreation",93,Sports Activities & Amusement & Recreation,93.1,Sports Activities,93.12,Activities of Sports Clubs,Revenue & Sponsors,MerchandiseSale
+R,"Arts, Entertainment & Recreation",93,Sports Activities & Amusement & Recreation,93.1,Sports Activities,93.12,Activities of Sports Clubs,Revenue & Sponsors,BroadcastRight
+S,Other Service Activities,94,Activities of Membership Organisations,94.1,Activities of Business & Employers Organisations,94.11,Activities of Business & Employers Organisations,Member Services,Member
+S,Other Service Activities,94,Activities of Membership Organisations,94.1,Activities of Business & Employers Organisations,94.11,Activities of Business & Employers Organisations,Member Services,MembershipTier
+S,Other Service Activities,94,Activities of Membership Organisations,94.1,Activities of Business & Employers Organisations,94.11,Activities of Business & Employers Organisations,Member Services,Application
+S,Other Service Activities,94,Activities of Membership Organisations,94.1,Activities of Business & Employers Organisations,94.11,Activities of Business & Employers Organisations,Member Services,Subscription
+S,Other Service Activities,94,Activities of Membership Organisations,94.1,Activities of Business & Employers Organisations,94.11,Activities of Business & Employers Organisations,Member Services,Benefit
+S,Other Service Activities,94,Activities of Membership Organisations,94.1,Activities of Business & Employers Organisations,94.11,Activities of Business & Employers Organisations,Events & Advocacy,Event
+S,Other Service Activities,94,Activities of Membership Organisations,94.1,Activities of Business & Employers Organisations,94.11,Activities of Business & Employers Organisations,Events & Advocacy,Registration
+S,Other Service Activities,94,Activities of Membership Organisations,94.1,Activities of Business & Employers Organisations,94.11,Activities of Business & Employers Organisations,Events & Advocacy,Policy
+S,Other Service Activities,94,Activities of Membership Organisations,94.1,Activities of Business & Employers Organisations,94.11,Activities of Business & Employers Organisations,Events & Advocacy,LobbyRecord
+S,Other Service Activities,94,Activities of Membership Organisations,94.1,Activities of Business & Employers Organisations,94.11,Activities of Business & Employers Organisations,Events & Advocacy,Committee
+S,Other Service Activities,96,Other Personal Service Activities,96.0,Other Personal Service Activities,96.02,Hairdressing & Other Beauty Treatment,Salon Operations,Client
+S,Other Service Activities,96,Other Personal Service Activities,96.0,Other Personal Service Activities,96.02,Hairdressing & Other Beauty Treatment,Salon Operations,Appointment
+S,Other Service Activities,96,Other Personal Service Activities,96.0,Other Personal Service Activities,96.02,Hairdressing & Other Beauty Treatment,Salon Operations,Service
+S,Other Service Activities,96,Other Personal Service Activities,96.0,Other Personal Service Activities,96.02,Hairdressing & Other Beauty Treatment,Salon Operations,Staff
+S,Other Service Activities,96,Other Personal Service Activities,96.0,Other Personal Service Activities,96.02,Hairdressing & Other Beauty Treatment,Salon Operations,Product
+S,Other Service Activities,96,Other Personal Service Activities,96.0,Other Personal Service Activities,96.02,Hairdressing & Other Beauty Treatment,Billing & Loyalty,Invoice
+S,Other Service Activities,96,Other Personal Service Activities,96.0,Other Personal Service Activities,96.02,Hairdressing & Other Beauty Treatment,Billing & Loyalty,Payment
+S,Other Service Activities,96,Other Personal Service Activities,96.0,Other Personal Service Activities,96.02,Hairdressing & Other Beauty Treatment,Billing & Loyalty,LoyaltyPoint
+S,Other Service Activities,96,Other Personal Service Activities,96.0,Other Personal Service Activities,96.02,Hairdressing & Other Beauty Treatment,Billing & Loyalty,Promotion
+S,Other Service Activities,96,Other Personal Service Activities,96.0,Other Personal Service Activities,96.02,Hairdressing & Other Beauty Treatment,Billing & Loyalty,Review
+T,Activities of Households as Employers,97,Activities of Households as Employers of Domestic Personnel,97.0,Activities of Households as Employers,97.00,Activities of Households as Employers of Domestic Personnel,Household Employment,Household
+T,Activities of Households as Employers,97,Activities of Households as Employers of Domestic Personnel,97.0,Activities of Households as Employers,97.00,Activities of Households as Employers of Domestic Personnel,DomesticWorker
+T,Activities of Households as Employers,97,Activities of Households as Employers of Domestic Personnel,97.0,Activities of Households as Employers,97.00,Activities of Households as Employers of Domestic Personnel,Household Employment,Contract
+T,Activities of Households as Employers,97,Activities of Households as Employers of Domestic Personnel,97.0,Activities of Households as Employers,97.00,Activities of Households as Employers of Domestic Personnel,Household Employment,PayRecord
+T,Activities of Households as Employers,97,Activities of Households as Employers of Domestic Personnel,97.0,Activities of Households as Employers,97.00,Activities of Households as Employers of Domestic Personnel,Household Employment,TaskLog
+U,Activities of Extraterritorial Organisations,99,Activities of Extraterritorial Organisations & Bodies,99.0,Activities of Extraterritorial Organisations,99.00,Activities of Extraterritorial Organisations & Bodies,Organisation Management,Organisation
+U,Activities of Extraterritorial Organisations,99,Activities of Extraterritorial Organisations & Bodies,99.0,Activities of Extraterritorial Organisations,99.00,Activities of Extraterritorial Organisations & Bodies,Organisation Management,Mission
+U,Activities of Extraterritorial Organisations,99,Activities of Extraterritorial Organisations & Bodies,99.0,Activities of Extraterritorial Organisations,99.00,Activities of Extraterritorial Organisations & Bodies,Organisation Management,StaffMember
+U,Activities of Extraterritorial Organisations,99,Activities of Extraterritorial Organisations & Bodies,99.0,Activities of Extraterritorial Organisations,99.00,Activities of Extraterritorial Organisations & Bodies,Organisation Management,Programme
+U,Activities of Extraterritorial Organisations,99,Activities of Extraterritorial Organisations & Bodies,99.0,Activities of Extraterritorial Organisations,99.00,Activities of Extraterritorial Organisations & Bodies,Organisation Management,Budget
+U,Activities of Extraterritorial Organisations,99,Activities of Extraterritorial Organisations & Bodies,99.0,Activities of Extraterritorial Organisations,99.00,Activities of Extraterritorial Organisations & Bodies,Operations & Reporting,ProjectActivity
+U,Activities of Extraterritorial Organisations,99,Activities of Extraterritorial Organisations & Bodies,99.0,Activities of Extraterritorial Organisations,99.00,Activities of Extraterritorial Organisations & Bodies,Operations & Reporting,Beneficiary
+U,Activities of Extraterritorial Organisations,99,Activities of Extraterritorial Organisations & Bodies,99.0,Activities of Extraterritorial Organisations,99.00,Activities of Extraterritorial Organisations & Bodies,Operations & Reporting,Donor
+U,Activities of Extraterritorial Organisations,99,Activities of Extraterritorial Organisations & Bodies,99.0,Activities of Extraterritorial Organisations,99.00,Activities of Extraterritorial Organisations & Bodies,Operations & Reporting,Report
+U,Activities of Extraterritorial Organisations,99,Activities of Extraterritorial Organisations & Bodies,99.0,Activities of Extraterritorial Organisations,99.00,Activities of Extraterritorial Organisations & Bodies,Operations & Reporting,AuditRecord
